@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		2E33513F1BEFBE900049CAB5 /* GmsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33513E1BEFBE900049CAB5 /* GmsMapView.swift */; settings = {ASSET_TAGS = (); }; };
 		2E52FAE61BEE6D9C007AA846 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E52FAE51BEE6D9C007AA846 /* MapKit.framework */; };
-		6CC1CBBC7F49C0342D13613A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A0E89A213BFA9F9ADD298E /* libPods.a */; };
+		2EF6FC011C0232DF007A9E5F /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFC1C0232DF007A9E5F /* libBolts.a */; };
+		2EF6FC021C0232DF007A9E5F /* libParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFD1C0232DF007A9E5F /* libParse.a */; };
+		2EF6FC031C0232DF007A9E5F /* libParseCrashReporting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */; };
+		2EF6FC041C0232DF007A9E5F /* libParseModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFF1C0232DF007A9E5F /* libParseModel.a */; };
+		2EF6FC051C0232DF007A9E5F /* libParseUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FC001C0232DF007A9E5F /* libParseUI.a */; };
+		2EF6FC071C023652007A9E5F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FC061C023652007A9E5F /* libsqlite3.0.tbd */; };
 		A9A379411B1FF07400E8AAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A379401B1FF07400E8AAB0 /* AppDelegate.swift */; };
 		A9A379431B1FF07400E8AAB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A379421B1FF07400E8AAB0 /* ViewController.swift */; };
 		A9A379461B1FF07400E8AAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A379441B1FF07400E8AAB0 /* Main.storyboard */; };
 		A9A379481B1FF07400E8AAB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A379471B1FF07400E8AAB0 /* Images.xcassets */; };
 		A9A3794B1B1FF07400E8AAB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A379491B1FF07400E8AAB0 /* LaunchScreen.xib */; };
 		A9A379571B1FF07500E8AAB0 /* AJMapKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A379561B1FF07500E8AAB0 /* AJMapKitTests.swift */; };
+		DAC9BAD8553603D4B6788F78 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76D9DAFB98BEADD6BB84CEA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,12 @@
 		2E33513E1BEFBE900049CAB5 /* GmsMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GmsMapView.swift; sourceTree = "<group>"; };
 		2E52FAE51BEE6D9C007AA846 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2E52FAE71BEE6FF3007AA846 /* AJMapKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJMapKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		2EF6FBFC1C0232DF007A9E5F /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "Pods/../build/Debug-iphoneos/libBolts.a"; sourceTree = "<group>"; };
+		2EF6FBFD1C0232DF007A9E5F /* libParse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParse.a; path = "Pods/../build/Debug-iphoneos/libParse.a"; sourceTree = "<group>"; };
+		2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseCrashReporting.a; path = "Pods/../build/Debug-iphoneos/libParseCrashReporting.a"; sourceTree = "<group>"; };
+		2EF6FBFF1C0232DF007A9E5F /* libParseModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseModel.a; path = "Pods/../build/Debug-iphoneos/libParseModel.a"; sourceTree = "<group>"; };
+		2EF6FC001C0232DF007A9E5F /* libParseUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseUI.a; path = "Pods/../build/Debug-iphoneos/libParseUI.a"; sourceTree = "<group>"; };
+		2EF6FC061C023652007A9E5F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		7FE62FF48C81BD3F35EFBF4B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A0B7B9DA956E6413312FE754 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A9A3793B1B1FF07400E8AAB0 /* AJMapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJMapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +56,7 @@
 		A9A379501B1FF07500E8AAB0 /* AJMapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJMapKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A379551B1FF07500E8AAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A379561B1FF07500E8AAB0 /* AJMapKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJMapKitTests.swift; sourceTree = "<group>"; };
-		D7A0E89A213BFA9F9ADD298E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76D9DAFB98BEADD6BB84CEA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF6FC071C023652007A9E5F /* libsqlite3.0.tbd in Frameworks */,
+				2EF6FC011C0232DF007A9E5F /* libBolts.a in Frameworks */,
+				2EF6FC021C0232DF007A9E5F /* libParse.a in Frameworks */,
+				2EF6FC031C0232DF007A9E5F /* libParseCrashReporting.a in Frameworks */,
+				2EF6FC041C0232DF007A9E5F /* libParseModel.a in Frameworks */,
+				2EF6FC051C0232DF007A9E5F /* libParseUI.a in Frameworks */,
 				2E52FAE61BEE6D9C007AA846 /* MapKit.framework in Frameworks */,
-				6CC1CBBC7F49C0342D13613A /* libPods.a in Frameworks */,
+				DAC9BAD8553603D4B6788F78 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +88,13 @@
 		A016D9644B1EA062EF54223A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D7A0E89A213BFA9F9ADD298E /* libPods.a */,
+				2EF6FC061C023652007A9E5F /* libsqlite3.0.tbd */,
+				2EF6FBFC1C0232DF007A9E5F /* libBolts.a */,
+				2EF6FBFD1C0232DF007A9E5F /* libParse.a */,
+				2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */,
+				2EF6FBFF1C0232DF007A9E5F /* libParseModel.a */,
+				2EF6FC001C0232DF007A9E5F /* libParseUI.a */,
+				B76D9DAFB98BEADD6BB84CEA /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -440,6 +464,10 @@
 				INFOPLIST_FILE = AJMapKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Alejandro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AJMapKit/AJMapKit-Bridging-Header.h";
@@ -457,6 +485,10 @@
 				INFOPLIST_FILE = AJMapKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Alejandro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AJMapKit/AJMapKit-Bridging-Header.h";

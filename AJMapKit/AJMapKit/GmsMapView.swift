@@ -8,6 +8,7 @@
 import UIKit
 import GoogleMaps
 
+
 class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate {
     var seenError : Bool = false
     var locationFixAchieved : Bool = false

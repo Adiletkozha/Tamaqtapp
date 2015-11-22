@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Parse
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
