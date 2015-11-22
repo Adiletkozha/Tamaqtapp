@@ -16,9 +16,9 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var myAddressView: UILabel!
     @IBOutlet weak var myLocationVIew: UILabel!
-  
+   
     var locationManager:CLLocationManager!
-    
+    var fixedlocation:CLLocationCoordinate2D!
     override func viewDidLoad() {
         super.viewDidLoad()
         

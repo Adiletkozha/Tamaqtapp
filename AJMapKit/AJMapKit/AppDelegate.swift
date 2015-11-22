@@ -21,8 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
          GMSServices.provideAPIKey("AIzaSyBGJXbbI6Du-_E-k2EBJnq0WlwbL8v4IEk");
-        return true
         
+        Parse.setApplicationId("ETMNFptQxX7VQKPHl7N82OyerZQPkamPXsQaHxFI", clientKey: "JfGNmJVXxeOa8ovA7EomKm7j3uN4qwBTzUDDe4cT");
+        
+        return true
+       
         
         
     }
