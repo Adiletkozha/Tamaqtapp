@@ -5,3 +5,4 @@ pod ‘GoogleMaps’
 pod ‘ParseModel’
 pod ‘ParseCrashReporting’
 pod ‘ParseUI’
+pod ‘MBProgressHUD’

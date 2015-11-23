@@ -1,6 +1,7 @@
 PODS:
   - Bolts/Tasks (1.5.0)
   - GoogleMaps (1.10.5)
+  - MBProgressHUD (0.9.1)
   - Parse (1.10.0):
     - Bolts/Tasks (~> 1.5)
   - ParseCrashReporting (1.9.2):
@@ -14,6 +15,7 @@ PODS:
 
 DEPENDENCIES:
   - GoogleMaps
+  - MBProgressHUD
   - ParseCrashReporting
   - ParseModel
   - ParseUI
@@ -21,6 +23,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
   GoogleMaps: da51c62c338c2d9c47cdad470a0d1e0e4b8544e4
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   Parse: 90b2544822200f84b18bfacc4e8b0a3a6c3584a2
   ParseCrashReporting: 33b760facc649d4fd99eef8f35dcda6a406099e5
   ParseModel: e9fb801cfca78f389241e367d025476c24fafe8d
