@@ -35,6 +35,9 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
         
         if(locationisselected==1){
             
+            
+            
+            
             let loadingNotification = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
             loadingNotification.mode = MBProgressHUDMode.Indeterminate
             loadingNotification.labelText = "Loading"
@@ -53,6 +56,14 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
     override func viewDidLoad() {
         super.viewDidLoad()
         ReadyShow.hidden=true;
+        
+        var alert = UIAlertController(title: "Помощь", message: "Укажите место предприятия. Для этого удерживайте палец нужном месте", preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        self.presentViewController(alert, animated: true, completion: nil)
+        
+        
+        
+        
         var camera = GMSCameraPosition.cameraWithLatitude(43.255058,
             longitude: 76.912628, zoom: 12)
         
@@ -125,9 +136,14 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
             marker.title = "Sydney"
             marker.snippet = "Australia"
             marker.map = mapView
-            marker.draggable=true}
+            marker.draggable=true
+            var alert = UIAlertController(title: "Успешно", message: "Удерживая палец на маркере вы можете передвигать его", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
         locationisselected=1
         ReadyShow.hidden=false
+    
         
         
     }
