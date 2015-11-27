@@ -138,17 +138,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnc-da-FWd">
-                                <rect key="frame" x="195" y="451" width="134" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="ДАЛЕЕ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="u4g-m7-2MJ" kind="push" id="Qji-7q-YDb"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Имя администратора" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V9N-Km-Gt3">
                                 <rect key="frame" x="138" y="313" width="248" height="30"/>
                                 <animations/>
@@ -171,8 +160,19 @@
                                 <rect key="frame" x="138" y="145" width="248" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnc-da-FWd">
+                                <rect key="frame" x="195" y="451" width="134" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="ДАЛЕЕ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u4g-m7-2MJ" kind="push" identifier="nextButton" id="Qji-7q-YDb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -180,6 +180,14 @@
                     <navigationItem key="navigationItem" id="VBf-dG-dQ0">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="xHq-vX-QFT"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="administratorText" destination="V9N-Km-Gt3" id="hhT-Un-isn"/>
+                        <outlet property="loginText" destination="VGn-st-7Gt" id="yuS-s0-8u7"/>
+                        <outlet property="nameText" destination="VrU-7q-3LV" id="o85-DL-ddc"/>
+                        <outlet property="passwordText" destination="NTK-vU-9qN" id="10r-OY-r6d"/>
+                        <outlet property="phoneText" destination="wq5-rN-jBy" id="tzJ-IX-aKw"/>
+                        <outlet property="typeText" destination="XnI-wl-oAx" id="GSM-3J-LIC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fiR-1A-aiE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

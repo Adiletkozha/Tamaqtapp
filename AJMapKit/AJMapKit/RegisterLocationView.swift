@@ -18,6 +18,7 @@ import UIKit
 import GoogleMaps
 import Parse
 import MBProgressHUD
+import FTUtils
 
 class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate {
     var seenError : Bool = false
@@ -27,6 +28,8 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
     var locationManager: CLLocationManager!
     var itemsposition:CLLocationCoordinate2D!
     var markerlocations:NSArray!
+    var myGeoPoint:PFGeoPoint!
+
     
     
     @IBOutlet weak var ReadyShow: UIButton!
@@ -34,7 +37,20 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
     @IBAction func ReadyButton(sender: AnyObject) {
         
         if(locationisselected==1){
-            
+    
+            var currentUser:PFUser = PFUser.currentUser()!
+            currentUser.setObject(myGeoPoint, forKey: "point")
+            currentUser.saveInBackground()
+          
+            currentUser.saveInBackgroundWithBlock { (_success:Bool, _error:NSError?) -> Void in
+                if _error == nil
+                {
+                  
+              
+                    print("point saved")
+                    
+                    
+                }}
             
             
             
@@ -42,6 +58,10 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
             loadingNotification.mode = MBProgressHUDMode.Indeterminate
             loadingNotification.labelText = "Loading"
             loadingNotification.hide(true)
+            
+              
+            self.navigationController?.pushViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
+            
             
 //           self.navigationController!.pushViewController(self.storyboard!.instantiateViewControllerWithIdentifier("CompleteRegister") as UIViewController, animated: true)
 //            
@@ -92,13 +112,29 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
         self.locationManager.startUpdatingLocation();
         
 
+     
         
         
         
     }
     
     
-    
+    func userAssign(){
+        let install=PFInstallation.currentInstallation()
+       install["user"]=PFUser.currentUser()
+     
+        install.saveInBackgroundWithBlock{ (_success:Bool, _error:NSError?) -> Void in
+            if _error == nil
+            {
+                
+                
+                print("p")
+                
+                
+            }}
+        
+
+    }
     
     
     
@@ -110,7 +146,7 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
         print(marker.position.latitude)
         print(marker.position.longitude)
         itemsposition=marker.position
-        let myGeoPoint = PFGeoPoint(latitude: itemsposition.latitude, longitude:itemsposition.longitude)
+        myGeoPoint = PFGeoPoint(latitude: itemsposition.latitude, longitude:itemsposition.longitude)
         
         let query = PFObject(className:"Locations")
         query["point"] = myGeoPoint

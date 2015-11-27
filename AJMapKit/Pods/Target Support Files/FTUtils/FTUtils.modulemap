@@ -1,0 +1,6 @@
+framework module FTUtils {
+  umbrella header "FTUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

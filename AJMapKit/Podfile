@@ -6,3 +6,4 @@ pod ‘ParseModel’
 pod ‘ParseCrashReporting’
 pod ‘ParseUI’
 pod ‘MBProgressHUD’
+pod ‘FTUtils’
