@@ -8,7 +8,7 @@
 
 import UIKit
 import Parse
-
+import GoogleMaps
 
 
 @UIApplicationMain
@@ -20,9 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-         GMSServices.provideAPIKey("AIzaSyBGJXbbI6Du-_E-k2EBJnq0WlwbL8v4IEk");
+        GMSServices.provideAPIKey("AIzaSyBGJXbbI6Du-_E-k2EBJnq0WlwbL8v4IEk");
         
         Parse.setApplicationId("ETMNFptQxX7VQKPHl7N82OyerZQPkamPXsQaHxFI", clientKey: "JfGNmJVXxeOa8ovA7EomKm7j3uN4qwBTzUDDe4cT");
+        
         
         return true
        

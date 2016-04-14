@@ -24,7 +24,7 @@ class RegisterView: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
     @IBOutlet weak var typeText: UITextField!
     @IBOutlet weak var administratorText: UITextField!
     @IBOutlet weak var phoneText: UITextField!
-    
+    var noerror=0
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -54,18 +54,24 @@ class RegisterView: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
             user.signUpInBackgroundWithBlock { (_success:Bool, _error:NSError?) -> Void in
                 if _error == nil
                 {
-                   user=PFUser.currentUser()
+    
+                    let d=1
+                    
                     print("saved")
-                    
-                    
-                }}
+
+                }
+                
+            }
+           
             
+            print(noerror)
+          
+           
             
- 
         }
-        
+        return true;
         // by default, transition
-        return true
+     
     }
 
     

@@ -58,13 +58,12 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
             loadingNotification.mode = MBProgressHUDMode.Indeterminate
             loadingNotification.labelText = "Loading"
             loadingNotification.hide(true)
-            
+          
               
-            self.navigationController?.pushViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
+            self.dismissViewControllerAnimated(true, completion: nil)
             
-            
-//           self.navigationController!.pushViewController(self.storyboard!.instantiateViewControllerWithIdentifier("CompleteRegister") as UIViewController, animated: true)
-//            
+          self.navigationController!.pushViewController(self.storyboard!.instantiateViewControllerWithIdentifier("myRoom") as UIViewController, animated: true)
+        
       
         }
         else{
@@ -176,6 +175,11 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
             var alert = UIAlertController(title: "Успешно", message: "Удерживая палец на маркере вы можете передвигать его", preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
             self.presentViewController(alert, animated: true, completion: nil)
+            
+            itemsposition=marker.position
+            myGeoPoint = PFGeoPoint(latitude: itemsposition.latitude, longitude:itemsposition.longitude)
+            
+            
         }
         locationisselected=1
         ReadyShow.hidden=false
