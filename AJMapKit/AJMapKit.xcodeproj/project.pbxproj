@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E33513F1BEFBE900049CAB5 /* GmsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33513E1BEFBE900049CAB5 /* GmsMapView.swift */; settings = {ASSET_TAGS = (); }; };
+		2E33513F1BEFBE900049CAB5 /* GmsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33513E1BEFBE900049CAB5 /* GmsMapView.swift */; };
 		2E52FAE61BEE6D9C007AA846 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E52FAE51BEE6D9C007AA846 /* MapKit.framework */; };
-		2E74E1271C024DEA006ED1F3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E74E1261C024DEA006ED1F3 /* RegisterView.swift */; settings = {ASSET_TAGS = (); }; };
-		2E7AA9511C03644100AB84D0 /* CompleteRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AA9501C03644100AB84D0 /* CompleteRegisterView.swift */; settings = {ASSET_TAGS = (); }; };
-		2E7AA9531C03663200AB84D0 /* RegisterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AA9521C03663200AB84D0 /* RegisterLocationView.swift */; settings = {ASSET_TAGS = (); }; };
-		2E7AA9561C087BC600AB84D0 /* myRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AA9551C087BC600AB84D0 /* myRoom.swift */; settings = {ASSET_TAGS = (); }; };
+		2E73144D1CC78BE900E2C493 /* CafeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E73144C1CC78BE900E2C493 /* CafeView.swift */; };
+		2E73144F1CC937F100E2C493 /* FoodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E73144E1CC937F100E2C493 /* FoodsView.swift */; };
+		2E74E1271C024DEA006ED1F3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E74E1261C024DEA006ED1F3 /* RegisterView.swift */; };
+		2E7AA9511C03644100AB84D0 /* CompleteRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AA9501C03644100AB84D0 /* CompleteRegisterView.swift */; };
+		2E7AA9531C03663200AB84D0 /* RegisterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AA9521C03663200AB84D0 /* RegisterLocationView.swift */; };
+		2E7AA9561C087BC600AB84D0 /* myRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AA9551C087BC600AB84D0 /* myRoom.swift */; };
 		2EF6FC011C0232DF007A9E5F /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFC1C0232DF007A9E5F /* libBolts.a */; };
 		2EF6FC021C0232DF007A9E5F /* libParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFD1C0232DF007A9E5F /* libParse.a */; };
 		2EF6FC031C0232DF007A9E5F /* libParseCrashReporting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */; };
@@ -42,6 +44,8 @@
 		2E33513E1BEFBE900049CAB5 /* GmsMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GmsMapView.swift; sourceTree = "<group>"; };
 		2E52FAE51BEE6D9C007AA846 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2E52FAE71BEE6FF3007AA846 /* AJMapKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJMapKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E73144C1CC78BE900E2C493 /* CafeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeView.swift; sourceTree = "<group>"; };
+		2E73144E1CC937F100E2C493 /* FoodsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodsView.swift; sourceTree = "<group>"; };
 		2E74E1261C024DEA006ED1F3 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		2E7AA9501C03644100AB84D0 /* CompleteRegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteRegisterView.swift; sourceTree = "<group>"; };
 		2E7AA9521C03663200AB84D0 /* RegisterLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLocationView.swift; sourceTree = "<group>"; };
@@ -142,9 +146,11 @@
 			children = (
 				A9A379401B1FF07400E8AAB0 /* AppDelegate.swift */,
 				2E7AA9501C03644100AB84D0 /* CompleteRegisterView.swift */,
+				2E73144C1CC78BE900E2C493 /* CafeView.swift */,
 				2E74E1261C024DEA006ED1F3 /* RegisterView.swift */,
 				A9A379421B1FF07400E8AAB0 /* ViewController.swift */,
 				A9A379441B1FF07400E8AAB0 /* Main.storyboard */,
+				2E73144E1CC937F100E2C493 /* FoodsView.swift */,
 				2E7AA9551C087BC600AB84D0 /* myRoom.swift */,
 				2E7AA9521C03663200AB84D0 /* RegisterLocationView.swift */,
 				2E33513E1BEFBE900049CAB5 /* GmsMapView.swift */,
@@ -343,6 +349,8 @@
 				2E7AA9531C03663200AB84D0 /* RegisterLocationView.swift in Sources */,
 				A9A379431B1FF07400E8AAB0 /* ViewController.swift in Sources */,
 				2E7AA9561C087BC600AB84D0 /* myRoom.swift in Sources */,
+				2E73144D1CC78BE900E2C493 /* CafeView.swift in Sources */,
+				2E73144F1CC937F100E2C493 /* FoodsView.swift in Sources */,
 				2E74E1271C024DEA006ED1F3 /* RegisterView.swift in Sources */,
 				A9A379411B1FF07400E8AAB0 /* AppDelegate.swift in Sources */,
 				2E33513F1BEFBE900049CAB5 /* GmsMapView.swift in Sources */,

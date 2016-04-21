@@ -28,6 +28,7 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
         mapView.settings.myLocationButton = true;
         mapView.settings.zoomGestures=true;
 
+        
         dispatch_async(dispatch_get_main_queue(), {
             mapView.myLocationEnabled = true;
         
@@ -37,8 +38,8 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
         
         self.locationManager=CLLocationManager()
         self.locationManager.delegate = self;
+       // mapView.delegate=self
         mapView.delegate=self
-        
         
         let status = CLLocationManager.authorizationStatus()
         if(status == CLAuthorizationStatus.NotDetermined) {
@@ -86,6 +87,48 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
     
     func mapView(mapView:GMSMapView, didBeginDraggingMarker marker:GMSMarker){
     // print("start dragging")
+    }
+    
+    
+    
+    func mapView(mapView:GMSMapView!, didTapInfoWindowOfMarker marker:GMSMarker!){
+        // print("start dragging")
+        print("hello")
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let secondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("CafeViewS") as! CafeView
+     //   self.navigationController?.pushViewController(secondViewController, animated: true)
+        print("bye")
+        
+        
+        
+ 
+        performSegueWithIdentifier("hello", sender: nil)
+    }
+    
+
+    
+    
+    func mapView(mapView: GMSMapView!, markerInfoWindow marker: GMSMarker!) -> UIView! {
+        let button   = UIButton(type: UIButtonType.System) as UIButton
+        button.frame = CGRectMake(0, 0, 60, 20)
+        button.backgroundColor = UIColor.blackColor()
+        button.setTitle("Show", forState: UIControlState.Normal)
+        button.addTarget(self, action: "buttonAction:", forControlEvents: UIControlEvents.TouchUpInside)
+       
+     
+        
+    
+        var DynamicView=UIView(frame: CGRectMake(0, 0, 200, 50))
+        DynamicView.backgroundColor=UIColor.greenColor()
+        DynamicView.addSubview(button)
+        return DynamicView
+    }
+    
+    
+    func buttonAction(sender:UIButton!)
+    {
+        print("Button tapped")
     }
     
     func mapView(mapView:GMSMapView, didEndDraggingMarker marker:GMSMarker){
