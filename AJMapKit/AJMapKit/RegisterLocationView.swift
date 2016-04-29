@@ -31,6 +31,8 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
     var myGeoPoint:PFGeoPoint!
 
     
+
+    
     
     @IBOutlet weak var ReadyShow: UIButton!
     
@@ -62,10 +64,9 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
               
             self.dismissViewControllerAnimated(true, completion: nil)
             
-          self.navigationController!.pushViewController(self.storyboard!.instantiateViewControllerWithIdentifier("myRoom") as UIViewController, animated: true)
+        self.navigationController!.pushViewController(self.storyboard!.instantiateViewControllerWithIdentifier("myRoom") as UIViewController, animated: true)
         
-      
-        }
+             }
         else{
    
         
@@ -75,7 +76,7 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
     override func viewDidLoad() {
         super.viewDidLoad()
         ReadyShow.hidden=true;
-        
+        self.navigationItem.setHidesBackButton(true, animated: false)
         var alert = UIAlertController(title: "Помощь", message: "Укажите место предприятия. Для этого удерживайте палец нужном месте", preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alert, animated: true, completion: nil)

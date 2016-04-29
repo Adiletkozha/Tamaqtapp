@@ -21,10 +21,18 @@ class CafeView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,U
     let ComplexMenu:[String]=["Kamir","hello"]
     let Menu:[String]=["Sushi","Lagman"]
     
+
+    @IBOutlet weak var FoodPhoto: UIImageView!
+    
+    @IBOutlet weak var FoodName: UILabel!
+    
+    @IBOutlet weak var FoodPrice: UILabel!
+    
+    @IBOutlet weak var FoodDescription: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         var DynamicView=UIView(frame: CGRectMake(0, 0, 100, 20))
         DynamicView.backgroundColor=UIColor.greenColor()
       //  self.navigationItem.titleView = DynamicView
@@ -61,10 +69,13 @@ class CafeView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,U
         let cell=tableView.dequeueReusableCellWithIdentifier("myCell", forIndexPath: indexPath)
         switch (SegmentedControl.selectedSegmentIndex) {
         case 0:
-            cell.textLabel?.text=ComplexMenu[indexPath.row]
+            //cell.textLabel?.text=ComplexMenu[indexPath.row]
+            var nameLabel : UILabel = cell.contentView.viewWithTag(101) as! UILabel;
+            nameLabel.text=ComplexMenu[indexPath.row]
             break
         case 1:
-            cell.textLabel?.text=Menu[indexPath.row]
+            var nameLabel : UILabel = cell.contentView.viewWithTag(101) as! UILabel;
+            nameLabel.text=Menu[indexPath.row]
             break
         default:
             break

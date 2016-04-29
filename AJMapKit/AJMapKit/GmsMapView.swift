@@ -48,7 +48,7 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
 
         self.locationManager.startUpdatingLocation();
         
-        let query2 = PFQuery(className: "Locations")
+        let query2 = PFQuery(className: "_User")
         query2.findObjectsInBackgroundWithBlock {
             (objects, error) -> Void in
             
@@ -85,9 +85,7 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
     
     
     
-    func mapView(mapView:GMSMapView, didBeginDraggingMarker marker:GMSMarker){
-    // print("start dragging")
-    }
+
     
     
     
@@ -125,26 +123,9 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
         return DynamicView
     }
     
+
     
-    func buttonAction(sender:UIButton!)
-    {
-        print("Button tapped")
-    }
-    
-    func mapView(mapView:GMSMapView, didEndDraggingMarker marker:GMSMarker){
-        print(marker.position.latitude)
-        print(marker.position.longitude)
-        itemsposition=marker.position
-        let myGeoPoint = PFGeoPoint(latitude: itemsposition.latitude, longitude:itemsposition.longitude)
-        
-        let query = PFObject(className:"Locations")
-        query["point"] = myGeoPoint
-        query.saveInBackgroundWithBlock { (_success:Bool, _error:NSError?) -> Void in
-            if _error == nil
-            {
-                // yay its saved
-            }}
-        
+
         
 
         
@@ -152,21 +133,10 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
 
 
     
-    }
     
-    func mapView(mapView:GMSMapView, didLongPressAtCoordinate coordinate:CLLocationCoordinate2D){
-        if(locationisselected==0){
-        var marker = GMSMarker()
-        marker.position = CLLocationCoordinate2DMake(coordinate.latitude, coordinate.longitude)
-        marker.title = "Sydney"
-        marker.snippet = "Australia"
-        marker.map = mapView
-            marker.draggable=true}
-        locationisselected++
-        
-        
-       
-    }
+    
+
+
     
     
     

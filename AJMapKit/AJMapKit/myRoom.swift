@@ -16,10 +16,10 @@ class myRoom: UIViewController, CLLocationManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+               self.navigationItem.setHidesBackButton(true, animated: false)
         
-        
-        var currentUser:PFUser = PFUser.currentUser()!
-        print(currentUser["username"])
+  //      var currentUser:PFUser = PFUser.currentUser()!
+   //     print(currentUser["username"])
         
         
     }
