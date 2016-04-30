@@ -36,6 +36,8 @@ class Checking: UIViewController, CLLocationManagerDelegate ,UIPickerViewDataSou
         FoodImage.addGestureRecognizer(tapGestureRecognizer)
         FoodType.dataSource = self;
         FoodType.delegate = self;
+        
+
     }
    
     func imageTapped(img: AnyObject)
@@ -107,8 +109,11 @@ class Checking: UIViewController, CLLocationManagerDelegate ,UIPickerViewDataSou
                 // yay its saved
             }}
         
-        
+        var alert = UIAlertController(title: "Успешно", message: "Удерживая палец на маркере вы можете передвигать его", preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
 
+        
+      NSNotificationCenter.defaultCenter().postNotificationName("refreshtable", object: self)
         
         self.dismissViewControllerAnimated(true, completion: nil)
         

@@ -1,0 +1,975 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RegisterView"
+provides-nominal:
+- "C8AJMapKit12RegisterView"
+provides-member:
+- ["C8AJMapKit12RegisterView", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "nameText"
+- "administratorText"
+- "passwordText"
+- "shouldPerformSegueWithIdentifier"
+- "noerror"
+- "typeText"
+- "loginText"
+- "phoneText"
+depends-top-level:
+- "UIViewController"
+- "String"
+- "AnyObject"
+- !private "Void"
+- !private "=="
+- "RegisterView"
+- "MKMapViewDelegate"
+- "Bool"
+- "UITextField"
+- !private "StringLiteralType"
+- !private "print"
+- !private "PFUser"
+- !private "<"
+- !private "NSError"
+- "CLLocationManagerDelegate"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "PFUser"]
+- ["Ps9AnyObject", "administratorText"]
+- !private ["Ps9AnyObject", "characters"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "locationManager"]
+- ["Ps9AnyObject", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps9AnyObject", "loginText"]
+- ["Ps9AnyObject", "mapView"]
+- ["Ps9AnyObject", "mapViewDidFailLoadingMap"]
+- ["Ps9AnyObject", "mapViewDidFinishLoadingMap"]
+- ["Ps9AnyObject", "mapViewDidFinishRenderingMap"]
+- ["Ps9AnyObject", "mapViewDidStopLocatingUser"]
+- ["Ps9AnyObject", "mapViewWillStartLoadingMap"]
+- ["Ps9AnyObject", "mapViewWillStartLocatingUser"]
+- ["Ps9AnyObject", "mapViewWillStartRenderingMap"]
+- ["Ps9AnyObject", "nameText"]
+- ["Ps9AnyObject", "noerror"]
+- !private ["Ps9AnyObject", "password"]
+- ["Ps9AnyObject", "passwordText"]
+- ["Ps9AnyObject", "phoneText"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "shouldPerformSegueWithIdentifier"]
+- !private ["Ps9AnyObject", "signUpInBackgroundWithBlock"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "typeText"]
+- !private ["Ps9AnyObject", "username"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSo25CLLocationManagerDelegate", "PFUser"]
+- !private ["PSo25CLLocationManagerDelegate", "administratorText"]
+- ["PSo25CLLocationManagerDelegate", "locationManager"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo25CLLocationManagerDelegate", "loginText"]
+- ["PSo25CLLocationManagerDelegate", "mapView"]
+- ["PSo25CLLocationManagerDelegate", "mapViewDidFailLoadingMap"]
+- ["PSo25CLLocationManagerDelegate", "mapViewDidFinishLoadingMap"]
+- ["PSo25CLLocationManagerDelegate", "mapViewDidFinishRenderingMap"]
+- ["PSo25CLLocationManagerDelegate", "mapViewDidStopLocatingUser"]
+- ["PSo25CLLocationManagerDelegate", "mapViewWillStartLoadingMap"]
+- ["PSo25CLLocationManagerDelegate", "mapViewWillStartLocatingUser"]
+- ["PSo25CLLocationManagerDelegate", "mapViewWillStartRenderingMap"]
+- !private ["PSo25CLLocationManagerDelegate", "nameText"]
+- !private ["PSo25CLLocationManagerDelegate", "noerror"]
+- !private ["PSo25CLLocationManagerDelegate", "passwordText"]
+- !private ["PSo25CLLocationManagerDelegate", "phoneText"]
+- !private ["PSo25CLLocationManagerDelegate", "print"]
+- !private ["PSo25CLLocationManagerDelegate", "typeText"]
+- ["PSo25CLLocationManagerDelegate", ""]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "PFUser"]
+- ["Ps11CVarArgType", "administratorText"]
+- !private ["Ps11CVarArgType", "characters"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "locationManager"]
+- ["Ps11CVarArgType", "locationManagerDidPauseLocationUpdates"]
+- ["Ps11CVarArgType", "locationManagerDidResumeLocationUpdates"]
+- ["Ps11CVarArgType", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps11CVarArgType", "loginText"]
+- ["Ps11CVarArgType", "mapView"]
+- ["Ps11CVarArgType", "mapViewDidFailLoadingMap"]
+- ["Ps11CVarArgType", "mapViewDidFinishLoadingMap"]
+- ["Ps11CVarArgType", "mapViewDidFinishRenderingMap"]
+- ["Ps11CVarArgType", "mapViewDidStopLocatingUser"]
+- ["Ps11CVarArgType", "mapViewWillStartLoadingMap"]
+- ["Ps11CVarArgType", "mapViewWillStartLocatingUser"]
+- ["Ps11CVarArgType", "mapViewWillStartRenderingMap"]
+- ["Ps11CVarArgType", "nameText"]
+- ["Ps11CVarArgType", "noerror"]
+- !private ["Ps11CVarArgType", "password"]
+- ["Ps11CVarArgType", "passwordText"]
+- ["Ps11CVarArgType", "phoneText"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "shouldPerformSegueWithIdentifier"]
+- !private ["Ps11CVarArgType", "signUpInBackgroundWithBlock"]
+- !private ["Ps11CVarArgType", "subscript"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "typeText"]
+- !private ["Ps11CVarArgType", "username"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["VSS13CharacterView", "Generator"]
+- !private ["VSS13CharacterView", "Index"]
+- !private ["VSS13CharacterView", "SubSequence"]
+- !private ["VSS13CharacterView", "count"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "PFUser"]
+- ["Ps28CustomDebugStringConvertible", "administratorText"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "locationManager"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps28CustomDebugStringConvertible", "loginText"]
+- ["Ps28CustomDebugStringConvertible", "mapView"]
+- ["Ps28CustomDebugStringConvertible", "mapViewDidFailLoadingMap"]
+- ["Ps28CustomDebugStringConvertible", "mapViewDidFinishLoadingMap"]
+- ["Ps28CustomDebugStringConvertible", "mapViewDidFinishRenderingMap"]
+- ["Ps28CustomDebugStringConvertible", "mapViewDidStopLocatingUser"]
+- ["Ps28CustomDebugStringConvertible", "mapViewWillStartLoadingMap"]
+- ["Ps28CustomDebugStringConvertible", "mapViewWillStartLocatingUser"]
+- ["Ps28CustomDebugStringConvertible", "mapViewWillStartRenderingMap"]
+- ["Ps28CustomDebugStringConvertible", "nameText"]
+- ["Ps28CustomDebugStringConvertible", "noerror"]
+- !private ["Ps28CustomDebugStringConvertible", "password"]
+- ["Ps28CustomDebugStringConvertible", "passwordText"]
+- ["Ps28CustomDebugStringConvertible", "phoneText"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "shouldPerformSegueWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "signUpInBackgroundWithBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "typeText"]
+- !private ["Ps28CustomDebugStringConvertible", "username"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "PFUser"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "administratorText"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "locationManager"]
+- ["Ps23CustomStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps23CustomStringConvertible", "loginText"]
+- ["Ps23CustomStringConvertible", "mapView"]
+- ["Ps23CustomStringConvertible", "mapViewDidFailLoadingMap"]
+- ["Ps23CustomStringConvertible", "mapViewDidFinishLoadingMap"]
+- ["Ps23CustomStringConvertible", "mapViewDidFinishRenderingMap"]
+- ["Ps23CustomStringConvertible", "mapViewDidStopLocatingUser"]
+- ["Ps23CustomStringConvertible", "mapViewWillStartLoadingMap"]
+- ["Ps23CustomStringConvertible", "mapViewWillStartLocatingUser"]
+- ["Ps23CustomStringConvertible", "mapViewWillStartRenderingMap"]
+- ["Ps23CustomStringConvertible", "nameText"]
+- ["Ps23CustomStringConvertible", "noerror"]
+- !private ["Ps23CustomStringConvertible", "password"]
+- ["Ps23CustomStringConvertible", "passwordText"]
+- ["Ps23CustomStringConvertible", "phoneText"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "shouldPerformSegueWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "signUpInBackgroundWithBlock"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "typeText"]
+- !private ["Ps23CustomStringConvertible", "username"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "PFUser"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "administratorText"]
+- !private ["Ps9Equatable", "characters"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "locationManager"]
+- ["Ps9Equatable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9Equatable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9Equatable", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps9Equatable", "loginText"]
+- ["Ps9Equatable", "mapView"]
+- ["Ps9Equatable", "mapViewDidFailLoadingMap"]
+- ["Ps9Equatable", "mapViewDidFinishLoadingMap"]
+- ["Ps9Equatable", "mapViewDidFinishRenderingMap"]
+- ["Ps9Equatable", "mapViewDidStopLocatingUser"]
+- ["Ps9Equatable", "mapViewWillStartLoadingMap"]
+- ["Ps9Equatable", "mapViewWillStartLocatingUser"]
+- ["Ps9Equatable", "mapViewWillStartRenderingMap"]
+- ["Ps9Equatable", "nameText"]
+- ["Ps9Equatable", "noerror"]
+- !private ["Ps9Equatable", "password"]
+- ["Ps9Equatable", "passwordText"]
+- ["Ps9Equatable", "phoneText"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "shouldPerformSegueWithIdentifier"]
+- !private ["Ps9Equatable", "signUpInBackgroundWithBlock"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "typeText"]
+- !private ["Ps9Equatable", "username"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "PFUser"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "administratorText"]
+- !private ["Ps8Hashable", "characters"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "locationManager"]
+- ["Ps8Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps8Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps8Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps8Hashable", "loginText"]
+- ["Ps8Hashable", "mapView"]
+- ["Ps8Hashable", "mapViewDidFailLoadingMap"]
+- ["Ps8Hashable", "mapViewDidFinishLoadingMap"]
+- ["Ps8Hashable", "mapViewDidFinishRenderingMap"]
+- ["Ps8Hashable", "mapViewDidStopLocatingUser"]
+- ["Ps8Hashable", "mapViewWillStartLoadingMap"]
+- ["Ps8Hashable", "mapViewWillStartLocatingUser"]
+- ["Ps8Hashable", "mapViewWillStartRenderingMap"]
+- ["Ps8Hashable", "nameText"]
+- ["Ps8Hashable", "noerror"]
+- !private ["Ps8Hashable", "password"]
+- ["Ps8Hashable", "passwordText"]
+- ["Ps8Hashable", "phoneText"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "shouldPerformSegueWithIdentifier"]
+- !private ["Ps8Hashable", "signUpInBackgroundWithBlock"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "typeText"]
+- !private ["Ps8Hashable", "username"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["VVSS13CharacterView5Index", "Distance"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["PSo17MKMapViewDelegate", "PFUser"]
+- !private ["PSo17MKMapViewDelegate", "administratorText"]
+- ["PSo17MKMapViewDelegate", "locationManager"]
+- ["PSo17MKMapViewDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo17MKMapViewDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo17MKMapViewDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo17MKMapViewDelegate", "loginText"]
+- ["PSo17MKMapViewDelegate", "mapView"]
+- ["PSo17MKMapViewDelegate", "mapViewDidFailLoadingMap"]
+- ["PSo17MKMapViewDelegate", "mapViewDidFinishLoadingMap"]
+- ["PSo17MKMapViewDelegate", "mapViewDidFinishRenderingMap"]
+- ["PSo17MKMapViewDelegate", "mapViewDidStopLocatingUser"]
+- ["PSo17MKMapViewDelegate", "mapViewWillStartLoadingMap"]
+- ["PSo17MKMapViewDelegate", "mapViewWillStartLocatingUser"]
+- ["PSo17MKMapViewDelegate", "mapViewWillStartRenderingMap"]
+- !private ["PSo17MKMapViewDelegate", "nameText"]
+- !private ["PSo17MKMapViewDelegate", "noerror"]
+- !private ["PSo17MKMapViewDelegate", "passwordText"]
+- !private ["PSo17MKMapViewDelegate", "phoneText"]
+- !private ["PSo17MKMapViewDelegate", "print"]
+- !private ["PSo17MKMapViewDelegate", "typeText"]
+- ["PSo17MKMapViewDelegate", ""]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "characters"]
+- !private ["PSo8NSCoding", "PFUser"]
+- ["PSo8NSCoding", "administratorText"]
+- !private ["PSo8NSCoding", "characters"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "locationManager"]
+- ["PSo8NSCoding", "locationManagerDidPauseLocationUpdates"]
+- ["PSo8NSCoding", "locationManagerDidResumeLocationUpdates"]
+- ["PSo8NSCoding", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo8NSCoding", "loginText"]
+- ["PSo8NSCoding", "mapView"]
+- ["PSo8NSCoding", "mapViewDidFailLoadingMap"]
+- ["PSo8NSCoding", "mapViewDidFinishLoadingMap"]
+- ["PSo8NSCoding", "mapViewDidFinishRenderingMap"]
+- ["PSo8NSCoding", "mapViewDidStopLocatingUser"]
+- ["PSo8NSCoding", "mapViewWillStartLoadingMap"]
+- ["PSo8NSCoding", "mapViewWillStartLocatingUser"]
+- ["PSo8NSCoding", "mapViewWillStartRenderingMap"]
+- ["PSo8NSCoding", "nameText"]
+- ["PSo8NSCoding", "noerror"]
+- ["PSo8NSCoding", "passwordText"]
+- ["PSo8NSCoding", "phoneText"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "shouldPerformSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "typeText"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo26NSExtensionRequestHandling", "PFUser"]
+- ["PSo26NSExtensionRequestHandling", "administratorText"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "locationManager"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerDidPauseLocationUpdates"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerDidResumeLocationUpdates"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo26NSExtensionRequestHandling", "loginText"]
+- ["PSo26NSExtensionRequestHandling", "mapView"]
+- ["PSo26NSExtensionRequestHandling", "mapViewDidFailLoadingMap"]
+- ["PSo26NSExtensionRequestHandling", "mapViewDidFinishLoadingMap"]
+- ["PSo26NSExtensionRequestHandling", "mapViewDidFinishRenderingMap"]
+- ["PSo26NSExtensionRequestHandling", "mapViewDidStopLocatingUser"]
+- ["PSo26NSExtensionRequestHandling", "mapViewWillStartLoadingMap"]
+- ["PSo26NSExtensionRequestHandling", "mapViewWillStartLocatingUser"]
+- ["PSo26NSExtensionRequestHandling", "mapViewWillStartRenderingMap"]
+- ["PSo26NSExtensionRequestHandling", "nameText"]
+- ["PSo26NSExtensionRequestHandling", "noerror"]
+- ["PSo26NSExtensionRequestHandling", "passwordText"]
+- ["PSo26NSExtensionRequestHandling", "phoneText"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "shouldPerformSegueWithIdentifier"]
+- ["PSo26NSExtensionRequestHandling", "typeText"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "characters"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "PFUser"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "administratorText"]
+- !private ["CSo8NSObject", "characters"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "locationManager"]
+- ["CSo8NSObject", "locationManagerDidPauseLocationUpdates"]
+- ["CSo8NSObject", "locationManagerDidResumeLocationUpdates"]
+- ["CSo8NSObject", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo8NSObject", "loginText"]
+- ["CSo8NSObject", "mapView"]
+- ["CSo8NSObject", "mapViewDidFailLoadingMap"]
+- ["CSo8NSObject", "mapViewDidFinishLoadingMap"]
+- ["CSo8NSObject", "mapViewDidFinishRenderingMap"]
+- ["CSo8NSObject", "mapViewDidStopLocatingUser"]
+- ["CSo8NSObject", "mapViewWillStartLoadingMap"]
+- ["CSo8NSObject", "mapViewWillStartLocatingUser"]
+- ["CSo8NSObject", "mapViewWillStartRenderingMap"]
+- ["CSo8NSObject", "nameText"]
+- ["CSo8NSObject", "noerror"]
+- !private ["CSo8NSObject", "password"]
+- ["CSo8NSObject", "passwordText"]
+- ["CSo8NSObject", "phoneText"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "shouldPerformSegueWithIdentifier"]
+- !private ["CSo8NSObject", "signUpInBackgroundWithBlock"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "typeText"]
+- !private ["CSo8NSObject", "username"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "PFUser"]
+- ["PSo16NSObjectProtocol", "administratorText"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "locationManager"]
+- ["PSo16NSObjectProtocol", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo16NSObjectProtocol", "loginText"]
+- ["PSo16NSObjectProtocol", "mapView"]
+- ["PSo16NSObjectProtocol", "mapViewDidFailLoadingMap"]
+- ["PSo16NSObjectProtocol", "mapViewDidFinishLoadingMap"]
+- ["PSo16NSObjectProtocol", "mapViewDidFinishRenderingMap"]
+- ["PSo16NSObjectProtocol", "mapViewDidStopLocatingUser"]
+- ["PSo16NSObjectProtocol", "mapViewWillStartLoadingMap"]
+- ["PSo16NSObjectProtocol", "mapViewWillStartLocatingUser"]
+- ["PSo16NSObjectProtocol", "mapViewWillStartRenderingMap"]
+- ["PSo16NSObjectProtocol", "nameText"]
+- ["PSo16NSObjectProtocol", "noerror"]
+- !private ["PSo16NSObjectProtocol", "password"]
+- ["PSo16NSObjectProtocol", "passwordText"]
+- ["PSo16NSObjectProtocol", "phoneText"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "shouldPerformSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "signUpInBackgroundWithBlock"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "typeText"]
+- !private ["PSo16NSObjectProtocol", "username"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["CSo8NSString", "characters"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "characters"]
+- !private ["CSo8PFObject", "init"]
+- !private ["CSo8PFObject", "password"]
+- !private ["CSo8PFObject", "signUpInBackgroundWithBlock"]
+- !private ["CSo8PFObject", "subscript"]
+- !private ["CSo8PFObject", "username"]
+- !private ["PSo13PFSubclassing", "init"]
+- !private ["PSo13PFSubclassing", "password"]
+- !private ["PSo13PFSubclassing", "signUpInBackgroundWithBlock"]
+- !private ["PSo13PFSubclassing", "subscript"]
+- !private ["PSo13PFSubclassing", "username"]
+- !private ["CSo6PFUser", "init"]
+- !private ["CSo6PFUser", "password"]
+- !private ["CSo6PFUser", "signUpInBackgroundWithBlock"]
+- !private ["CSo6PFUser", "subscript"]
+- !private ["CSo6PFUser", "username"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- ["C8AJMapKit12RegisterView", "AnyObject"]
+- ["C8AJMapKit12RegisterView", "Bool"]
+- !private ["C8AJMapKit12RegisterView", "NSError"]
+- !private ["C8AJMapKit12RegisterView", "PFUser"]
+- ["C8AJMapKit12RegisterView", "String"]
+- ["C8AJMapKit12RegisterView", "UITextField"]
+- !private ["C8AJMapKit12RegisterView", "Void"]
+- ["C8AJMapKit12RegisterView", "administratorText"]
+- ["C8AJMapKit12RegisterView", "deinit"]
+- ["C8AJMapKit12RegisterView", "init"]
+- ["C8AJMapKit12RegisterView", "locationManager"]
+- ["C8AJMapKit12RegisterView", "locationManagerDidPauseLocationUpdates"]
+- ["C8AJMapKit12RegisterView", "locationManagerDidResumeLocationUpdates"]
+- ["C8AJMapKit12RegisterView", "locationManagerShouldDisplayHeadingCalibration"]
+- ["C8AJMapKit12RegisterView", "loginText"]
+- ["C8AJMapKit12RegisterView", "mapView"]
+- ["C8AJMapKit12RegisterView", "mapViewDidFailLoadingMap"]
+- ["C8AJMapKit12RegisterView", "mapViewDidFinishLoadingMap"]
+- ["C8AJMapKit12RegisterView", "mapViewDidFinishRenderingMap"]
+- ["C8AJMapKit12RegisterView", "mapViewDidStopLocatingUser"]
+- ["C8AJMapKit12RegisterView", "mapViewWillStartLoadingMap"]
+- ["C8AJMapKit12RegisterView", "mapViewWillStartLocatingUser"]
+- ["C8AJMapKit12RegisterView", "mapViewWillStartRenderingMap"]
+- ["C8AJMapKit12RegisterView", "nameText"]
+- ["C8AJMapKit12RegisterView", "noerror"]
+- ["C8AJMapKit12RegisterView", "passwordText"]
+- ["C8AJMapKit12RegisterView", "phoneText"]
+- !private ["C8AJMapKit12RegisterView", "print"]
+- ["C8AJMapKit12RegisterView", "shouldPerformSegueWithIdentifier"]
+- ["C8AJMapKit12RegisterView", "typeText"]
+- ["C8AJMapKit12RegisterView", "viewDidLoad"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Streamable", "characters"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "characters"]
+- !private ["SS", "deinit"]
+- !private ["Ps30StringInterpolationConvertible", "characters"]
+- !private ["Ps24StringLiteralConvertible", "characters"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "PFUser"]
+- ["PSo21UIAppearanceContainer", "administratorText"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "locationManager"]
+- ["PSo21UIAppearanceContainer", "locationManagerDidPauseLocationUpdates"]
+- ["PSo21UIAppearanceContainer", "locationManagerDidResumeLocationUpdates"]
+- ["PSo21UIAppearanceContainer", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo21UIAppearanceContainer", "loginText"]
+- ["PSo21UIAppearanceContainer", "mapView"]
+- ["PSo21UIAppearanceContainer", "mapViewDidFailLoadingMap"]
+- ["PSo21UIAppearanceContainer", "mapViewDidFinishLoadingMap"]
+- ["PSo21UIAppearanceContainer", "mapViewDidFinishRenderingMap"]
+- ["PSo21UIAppearanceContainer", "mapViewDidStopLocatingUser"]
+- ["PSo21UIAppearanceContainer", "mapViewWillStartLoadingMap"]
+- ["PSo21UIAppearanceContainer", "mapViewWillStartLocatingUser"]
+- ["PSo21UIAppearanceContainer", "mapViewWillStartRenderingMap"]
+- ["PSo21UIAppearanceContainer", "nameText"]
+- ["PSo21UIAppearanceContainer", "noerror"]
+- ["PSo21UIAppearanceContainer", "passwordText"]
+- ["PSo21UIAppearanceContainer", "phoneText"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "shouldPerformSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "typeText"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "PFUser"]
+- ["PSo18UIContentContainer", "administratorText"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "locationManager"]
+- ["PSo18UIContentContainer", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UIContentContainer", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UIContentContainer", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UIContentContainer", "loginText"]
+- ["PSo18UIContentContainer", "mapView"]
+- ["PSo18UIContentContainer", "mapViewDidFailLoadingMap"]
+- ["PSo18UIContentContainer", "mapViewDidFinishLoadingMap"]
+- ["PSo18UIContentContainer", "mapViewDidFinishRenderingMap"]
+- ["PSo18UIContentContainer", "mapViewDidStopLocatingUser"]
+- ["PSo18UIContentContainer", "mapViewWillStartLoadingMap"]
+- ["PSo18UIContentContainer", "mapViewWillStartLocatingUser"]
+- ["PSo18UIContentContainer", "mapViewWillStartRenderingMap"]
+- ["PSo18UIContentContainer", "nameText"]
+- ["PSo18UIContentContainer", "noerror"]
+- ["PSo18UIContentContainer", "passwordText"]
+- ["PSo18UIContentContainer", "phoneText"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "shouldPerformSegueWithIdentifier"]
+- ["PSo18UIContentContainer", "typeText"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "PFUser"]
+- ["PSo18UIFocusEnvironment", "administratorText"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "locationManager"]
+- ["PSo18UIFocusEnvironment", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UIFocusEnvironment", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UIFocusEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UIFocusEnvironment", "loginText"]
+- ["PSo18UIFocusEnvironment", "mapView"]
+- ["PSo18UIFocusEnvironment", "mapViewDidFailLoadingMap"]
+- ["PSo18UIFocusEnvironment", "mapViewDidFinishLoadingMap"]
+- ["PSo18UIFocusEnvironment", "mapViewDidFinishRenderingMap"]
+- ["PSo18UIFocusEnvironment", "mapViewDidStopLocatingUser"]
+- ["PSo18UIFocusEnvironment", "mapViewWillStartLoadingMap"]
+- ["PSo18UIFocusEnvironment", "mapViewWillStartLocatingUser"]
+- ["PSo18UIFocusEnvironment", "mapViewWillStartRenderingMap"]
+- ["PSo18UIFocusEnvironment", "nameText"]
+- ["PSo18UIFocusEnvironment", "noerror"]
+- ["PSo18UIFocusEnvironment", "passwordText"]
+- ["PSo18UIFocusEnvironment", "phoneText"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "shouldPerformSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "typeText"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "PFUser"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "administratorText"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "locationManager"]
+- ["CSo11UIResponder", "locationManagerDidPauseLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerDidResumeLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo11UIResponder", "loginText"]
+- ["CSo11UIResponder", "mapView"]
+- ["CSo11UIResponder", "mapViewDidFailLoadingMap"]
+- ["CSo11UIResponder", "mapViewDidFinishLoadingMap"]
+- ["CSo11UIResponder", "mapViewDidFinishRenderingMap"]
+- ["CSo11UIResponder", "mapViewDidStopLocatingUser"]
+- ["CSo11UIResponder", "mapViewWillStartLoadingMap"]
+- ["CSo11UIResponder", "mapViewWillStartLocatingUser"]
+- ["CSo11UIResponder", "mapViewWillStartRenderingMap"]
+- ["CSo11UIResponder", "nameText"]
+- ["CSo11UIResponder", "noerror"]
+- ["CSo11UIResponder", "passwordText"]
+- ["CSo11UIResponder", "phoneText"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "shouldPerformSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "typeText"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "PFUser"]
+- ["PSo16UIStateRestoring", "administratorText"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "locationManager"]
+- ["PSo16UIStateRestoring", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16UIStateRestoring", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16UIStateRestoring", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo16UIStateRestoring", "loginText"]
+- ["PSo16UIStateRestoring", "mapView"]
+- ["PSo16UIStateRestoring", "mapViewDidFailLoadingMap"]
+- ["PSo16UIStateRestoring", "mapViewDidFinishLoadingMap"]
+- ["PSo16UIStateRestoring", "mapViewDidFinishRenderingMap"]
+- ["PSo16UIStateRestoring", "mapViewDidStopLocatingUser"]
+- ["PSo16UIStateRestoring", "mapViewWillStartLoadingMap"]
+- ["PSo16UIStateRestoring", "mapViewWillStartLocatingUser"]
+- ["PSo16UIStateRestoring", "mapViewWillStartRenderingMap"]
+- ["PSo16UIStateRestoring", "nameText"]
+- ["PSo16UIStateRestoring", "noerror"]
+- ["PSo16UIStateRestoring", "passwordText"]
+- ["PSo16UIStateRestoring", "phoneText"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "shouldPerformSegueWithIdentifier"]
+- ["PSo16UIStateRestoring", "typeText"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "PFUser"]
+- ["PSo18UITraitEnvironment", "administratorText"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "locationManager"]
+- ["PSo18UITraitEnvironment", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UITraitEnvironment", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UITraitEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UITraitEnvironment", "loginText"]
+- ["PSo18UITraitEnvironment", "mapView"]
+- ["PSo18UITraitEnvironment", "mapViewDidFailLoadingMap"]
+- ["PSo18UITraitEnvironment", "mapViewDidFinishLoadingMap"]
+- ["PSo18UITraitEnvironment", "mapViewDidFinishRenderingMap"]
+- ["PSo18UITraitEnvironment", "mapViewDidStopLocatingUser"]
+- ["PSo18UITraitEnvironment", "mapViewWillStartLoadingMap"]
+- ["PSo18UITraitEnvironment", "mapViewWillStartLocatingUser"]
+- ["PSo18UITraitEnvironment", "mapViewWillStartRenderingMap"]
+- ["PSo18UITraitEnvironment", "nameText"]
+- ["PSo18UITraitEnvironment", "noerror"]
+- ["PSo18UITraitEnvironment", "passwordText"]
+- ["PSo18UITraitEnvironment", "phoneText"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "shouldPerformSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "typeText"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "PFUser"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "administratorText"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "locationManager"]
+- ["CSo16UIViewController", "locationManagerDidPauseLocationUpdates"]
+- ["CSo16UIViewController", "locationManagerDidResumeLocationUpdates"]
+- ["CSo16UIViewController", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo16UIViewController", "loginText"]
+- ["CSo16UIViewController", "mapView"]
+- ["CSo16UIViewController", "mapViewDidFailLoadingMap"]
+- ["CSo16UIViewController", "mapViewDidFinishLoadingMap"]
+- ["CSo16UIViewController", "mapViewDidFinishRenderingMap"]
+- ["CSo16UIViewController", "mapViewDidStopLocatingUser"]
+- ["CSo16UIViewController", "mapViewWillStartLoadingMap"]
+- ["CSo16UIViewController", "mapViewWillStartLocatingUser"]
+- ["CSo16UIViewController", "mapViewWillStartRenderingMap"]
+- ["CSo16UIViewController", "nameText"]
+- ["CSo16UIViewController", "noerror"]
+- ["CSo16UIViewController", "passwordText"]
+- ["CSo16UIViewController", "phoneText"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "shouldPerformSegueWithIdentifier"]
+- ["CSo16UIViewController", "typeText"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "characters"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "characters"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "characters"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "characters"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "characters"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "characters"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "PSo25CLLocationManagerDelegate"
+- "Ps11CVarArgType"
+- !private "VSS13CharacterView"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "VVSS13CharacterView5Index"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- "PSo17MKMapViewDelegate"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "CSo8PFObject"
+- !private "PSo13PFSubclassing"
+- !private "CSo6PFUser"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- "C8AJMapKit12RegisterView"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/AJMapKit-Bridging-Header.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GoogleMaps.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteFilter.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteMatchFragment.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompletePrediction.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlace.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihood.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihoodList.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePicker.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePickerConfig.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesClient.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesMacros.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUserAddedPlace.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceTypes.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFDefines.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFPurchase.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFProduct.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFPush.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFInstallation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFSession.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFRole.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFRelation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFQuery.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFFile.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFConfig.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFCloud.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFObject.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFUser.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFConstants.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFACL.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/Parse.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/ParseUI.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFTableViewCell.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFPurchaseTableViewCell.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFCollectionViewCell.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFTextField.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFImageView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFProductTableViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFQueryCollectionViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFQueryTableViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFSignUpViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFSignUpView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFLogInViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFLogInView_Private.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/ParseUIConstants.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/PFLogInView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/ParseUI-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseCrashReporting.framework/Headers/ParseCrashReporting.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseCrashReporting.framework/Headers/ParseCrashReporting-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseCrashReporting.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers/FTUtils+UIGestureRecognizer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers/FTUtils+NSObject.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers/FTUtils.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers/FTAnimation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers/FTAnimationManager.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers/FTAnimation+UIView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers/FTUtils-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceTypes.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacesMacros.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacesClient.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacePickerConfig.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacePicker.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlace.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+interface-hash: "d0474408ef9b4f3c067304ceb31006f2"

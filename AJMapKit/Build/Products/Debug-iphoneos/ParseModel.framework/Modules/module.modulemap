@@ -1,0 +1,6 @@
+framework module ParseModel {
+  umbrella header "ParseModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

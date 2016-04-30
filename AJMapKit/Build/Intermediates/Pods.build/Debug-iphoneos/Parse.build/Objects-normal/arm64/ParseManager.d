@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/ParseManager.m \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Target\ Support\ Files/Parse/Parse-prefix.pch \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/ParseManager.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFConstants.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFDataProvider.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/LocalDataStore/OfflineStore/PFOfflineStore.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFMacros.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Bolts/BFExecutor.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/BFTask+Private.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Bolts/BFTask.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Bolts/BFCancellationToken.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Bolts/BFCancellationTokenRegistration.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Bolts/BFDefines.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFInternalUtils.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFEncoder.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/Analytics/Controller/PFAnalyticsController.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFAssert.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFCommandCache.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFEventuallyQueue.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFNetworkCommand.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFConfig.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFCoreManager.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFCoreDataProvider.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFFileManager.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/Installation/InstallationIdentifierStore/PFInstallationIdentifierStore.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/KeyValueCache/PFKeyValueCache.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFKeychainStore.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFLogging.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFLogger.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/MultiProcessLock/PFMultiProcessFileLockController.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/PFPinningEventuallyQueue.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFUser.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFObject.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFACL.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFSubclassing.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/Commands/CommandRunner/URLSession/PFURLSessionCommandRunner.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/Commands/CommandRunner/PFCommandRunning.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/Persistence/PFPersistenceController.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/Persistence/Group/PFPersistenceGroup.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/Push/Manager/PFPushManager.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFInstallation.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Parse/Parse/Internal/Purchase/Controller/PFPurchaseController.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFProduct.h \
+  /Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Private/Parse/PFFile.h
