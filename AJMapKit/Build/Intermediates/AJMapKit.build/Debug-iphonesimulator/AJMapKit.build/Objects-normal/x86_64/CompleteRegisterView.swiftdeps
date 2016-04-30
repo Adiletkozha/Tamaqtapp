@@ -1,0 +1,509 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CompleteRegisterView"
+provides-nominal:
+- "C8AJMapKit20CompleteRegisterView"
+provides-member:
+- ["C8AJMapKit20CompleteRegisterView", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- "CLLocationManagerDelegate"
+- "CompleteRegisterView"
+- "UIViewController"
+- "MKMapViewDelegate"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "locationManager"]
+- ["Ps9AnyObject", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps9AnyObject", "mapView"]
+- ["Ps9AnyObject", "mapViewDidFailLoadingMap"]
+- ["Ps9AnyObject", "mapViewDidFinishLoadingMap"]
+- ["Ps9AnyObject", "mapViewDidFinishRenderingMap"]
+- ["Ps9AnyObject", "mapViewDidStopLocatingUser"]
+- ["Ps9AnyObject", "mapViewWillStartLoadingMap"]
+- ["Ps9AnyObject", "mapViewWillStartLocatingUser"]
+- ["Ps9AnyObject", "mapViewWillStartRenderingMap"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["PSo25CLLocationManagerDelegate", "locationManager"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo25CLLocationManagerDelegate", "mapView"]
+- ["PSo25CLLocationManagerDelegate", "mapViewDidFailLoadingMap"]
+- ["PSo25CLLocationManagerDelegate", "mapViewDidFinishLoadingMap"]
+- ["PSo25CLLocationManagerDelegate", "mapViewDidFinishRenderingMap"]
+- ["PSo25CLLocationManagerDelegate", "mapViewDidStopLocatingUser"]
+- ["PSo25CLLocationManagerDelegate", "mapViewWillStartLoadingMap"]
+- ["PSo25CLLocationManagerDelegate", "mapViewWillStartLocatingUser"]
+- ["PSo25CLLocationManagerDelegate", "mapViewWillStartRenderingMap"]
+- ["PSo25CLLocationManagerDelegate", ""]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "locationManager"]
+- ["Ps11CVarArgType", "locationManagerDidPauseLocationUpdates"]
+- ["Ps11CVarArgType", "locationManagerDidResumeLocationUpdates"]
+- ["Ps11CVarArgType", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps11CVarArgType", "mapView"]
+- ["Ps11CVarArgType", "mapViewDidFailLoadingMap"]
+- ["Ps11CVarArgType", "mapViewDidFinishLoadingMap"]
+- ["Ps11CVarArgType", "mapViewDidFinishRenderingMap"]
+- ["Ps11CVarArgType", "mapViewDidStopLocatingUser"]
+- ["Ps11CVarArgType", "mapViewWillStartLoadingMap"]
+- ["Ps11CVarArgType", "mapViewWillStartLocatingUser"]
+- ["Ps11CVarArgType", "mapViewWillStartRenderingMap"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- ["C8AJMapKit20CompleteRegisterView", "deinit"]
+- ["C8AJMapKit20CompleteRegisterView", "init"]
+- ["C8AJMapKit20CompleteRegisterView", "locationManager"]
+- ["C8AJMapKit20CompleteRegisterView", "locationManagerDidPauseLocationUpdates"]
+- ["C8AJMapKit20CompleteRegisterView", "locationManagerDidResumeLocationUpdates"]
+- ["C8AJMapKit20CompleteRegisterView", "locationManagerShouldDisplayHeadingCalibration"]
+- ["C8AJMapKit20CompleteRegisterView", "mapView"]
+- ["C8AJMapKit20CompleteRegisterView", "mapViewDidFailLoadingMap"]
+- ["C8AJMapKit20CompleteRegisterView", "mapViewDidFinishLoadingMap"]
+- ["C8AJMapKit20CompleteRegisterView", "mapViewDidFinishRenderingMap"]
+- ["C8AJMapKit20CompleteRegisterView", "mapViewDidStopLocatingUser"]
+- ["C8AJMapKit20CompleteRegisterView", "mapViewWillStartLoadingMap"]
+- ["C8AJMapKit20CompleteRegisterView", "mapViewWillStartLocatingUser"]
+- ["C8AJMapKit20CompleteRegisterView", "mapViewWillStartRenderingMap"]
+- ["C8AJMapKit20CompleteRegisterView", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "locationManager"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps28CustomDebugStringConvertible", "mapView"]
+- ["Ps28CustomDebugStringConvertible", "mapViewDidFailLoadingMap"]
+- ["Ps28CustomDebugStringConvertible", "mapViewDidFinishLoadingMap"]
+- ["Ps28CustomDebugStringConvertible", "mapViewDidFinishRenderingMap"]
+- ["Ps28CustomDebugStringConvertible", "mapViewDidStopLocatingUser"]
+- ["Ps28CustomDebugStringConvertible", "mapViewWillStartLoadingMap"]
+- ["Ps28CustomDebugStringConvertible", "mapViewWillStartLocatingUser"]
+- ["Ps28CustomDebugStringConvertible", "mapViewWillStartRenderingMap"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "locationManager"]
+- ["Ps23CustomStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps23CustomStringConvertible", "mapView"]
+- ["Ps23CustomStringConvertible", "mapViewDidFailLoadingMap"]
+- ["Ps23CustomStringConvertible", "mapViewDidFinishLoadingMap"]
+- ["Ps23CustomStringConvertible", "mapViewDidFinishRenderingMap"]
+- ["Ps23CustomStringConvertible", "mapViewDidStopLocatingUser"]
+- ["Ps23CustomStringConvertible", "mapViewWillStartLoadingMap"]
+- ["Ps23CustomStringConvertible", "mapViewWillStartLocatingUser"]
+- ["Ps23CustomStringConvertible", "mapViewWillStartRenderingMap"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "locationManager"]
+- ["Ps9Equatable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9Equatable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9Equatable", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps9Equatable", "mapView"]
+- ["Ps9Equatable", "mapViewDidFailLoadingMap"]
+- ["Ps9Equatable", "mapViewDidFinishLoadingMap"]
+- ["Ps9Equatable", "mapViewDidFinishRenderingMap"]
+- ["Ps9Equatable", "mapViewDidStopLocatingUser"]
+- ["Ps9Equatable", "mapViewWillStartLoadingMap"]
+- ["Ps9Equatable", "mapViewWillStartLocatingUser"]
+- ["Ps9Equatable", "mapViewWillStartRenderingMap"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "locationManager"]
+- ["Ps8Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps8Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps8Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- ["Ps8Hashable", "mapView"]
+- ["Ps8Hashable", "mapViewDidFailLoadingMap"]
+- ["Ps8Hashable", "mapViewDidFinishLoadingMap"]
+- ["Ps8Hashable", "mapViewDidFinishRenderingMap"]
+- ["Ps8Hashable", "mapViewDidStopLocatingUser"]
+- ["Ps8Hashable", "mapViewWillStartLoadingMap"]
+- ["Ps8Hashable", "mapViewWillStartLocatingUser"]
+- ["Ps8Hashable", "mapViewWillStartRenderingMap"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["PSo17MKMapViewDelegate", "locationManager"]
+- ["PSo17MKMapViewDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo17MKMapViewDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo17MKMapViewDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo17MKMapViewDelegate", "mapView"]
+- ["PSo17MKMapViewDelegate", "mapViewDidFailLoadingMap"]
+- ["PSo17MKMapViewDelegate", "mapViewDidFinishLoadingMap"]
+- ["PSo17MKMapViewDelegate", "mapViewDidFinishRenderingMap"]
+- ["PSo17MKMapViewDelegate", "mapViewDidStopLocatingUser"]
+- ["PSo17MKMapViewDelegate", "mapViewWillStartLoadingMap"]
+- ["PSo17MKMapViewDelegate", "mapViewWillStartLocatingUser"]
+- ["PSo17MKMapViewDelegate", "mapViewWillStartRenderingMap"]
+- ["PSo17MKMapViewDelegate", ""]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "locationManager"]
+- ["PSo8NSCoding", "locationManagerDidPauseLocationUpdates"]
+- ["PSo8NSCoding", "locationManagerDidResumeLocationUpdates"]
+- ["PSo8NSCoding", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo8NSCoding", "mapView"]
+- ["PSo8NSCoding", "mapViewDidFailLoadingMap"]
+- ["PSo8NSCoding", "mapViewDidFinishLoadingMap"]
+- ["PSo8NSCoding", "mapViewDidFinishRenderingMap"]
+- ["PSo8NSCoding", "mapViewDidStopLocatingUser"]
+- ["PSo8NSCoding", "mapViewWillStartLoadingMap"]
+- ["PSo8NSCoding", "mapViewWillStartLocatingUser"]
+- ["PSo8NSCoding", "mapViewWillStartRenderingMap"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "locationManager"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerDidPauseLocationUpdates"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerDidResumeLocationUpdates"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo26NSExtensionRequestHandling", "mapView"]
+- ["PSo26NSExtensionRequestHandling", "mapViewDidFailLoadingMap"]
+- ["PSo26NSExtensionRequestHandling", "mapViewDidFinishLoadingMap"]
+- ["PSo26NSExtensionRequestHandling", "mapViewDidFinishRenderingMap"]
+- ["PSo26NSExtensionRequestHandling", "mapViewDidStopLocatingUser"]
+- ["PSo26NSExtensionRequestHandling", "mapViewWillStartLoadingMap"]
+- ["PSo26NSExtensionRequestHandling", "mapViewWillStartLocatingUser"]
+- ["PSo26NSExtensionRequestHandling", "mapViewWillStartRenderingMap"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "locationManager"]
+- ["CSo8NSObject", "locationManagerDidPauseLocationUpdates"]
+- ["CSo8NSObject", "locationManagerDidResumeLocationUpdates"]
+- ["CSo8NSObject", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo8NSObject", "mapView"]
+- ["CSo8NSObject", "mapViewDidFailLoadingMap"]
+- ["CSo8NSObject", "mapViewDidFinishLoadingMap"]
+- ["CSo8NSObject", "mapViewDidFinishRenderingMap"]
+- ["CSo8NSObject", "mapViewDidStopLocatingUser"]
+- ["CSo8NSObject", "mapViewWillStartLoadingMap"]
+- ["CSo8NSObject", "mapViewWillStartLocatingUser"]
+- ["CSo8NSObject", "mapViewWillStartRenderingMap"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "locationManager"]
+- ["PSo16NSObjectProtocol", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo16NSObjectProtocol", "mapView"]
+- ["PSo16NSObjectProtocol", "mapViewDidFailLoadingMap"]
+- ["PSo16NSObjectProtocol", "mapViewDidFinishLoadingMap"]
+- ["PSo16NSObjectProtocol", "mapViewDidFinishRenderingMap"]
+- ["PSo16NSObjectProtocol", "mapViewDidStopLocatingUser"]
+- ["PSo16NSObjectProtocol", "mapViewWillStartLoadingMap"]
+- ["PSo16NSObjectProtocol", "mapViewWillStartLocatingUser"]
+- ["PSo16NSObjectProtocol", "mapViewWillStartRenderingMap"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "locationManager"]
+- ["PSo21UIAppearanceContainer", "locationManagerDidPauseLocationUpdates"]
+- ["PSo21UIAppearanceContainer", "locationManagerDidResumeLocationUpdates"]
+- ["PSo21UIAppearanceContainer", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo21UIAppearanceContainer", "mapView"]
+- ["PSo21UIAppearanceContainer", "mapViewDidFailLoadingMap"]
+- ["PSo21UIAppearanceContainer", "mapViewDidFinishLoadingMap"]
+- ["PSo21UIAppearanceContainer", "mapViewDidFinishRenderingMap"]
+- ["PSo21UIAppearanceContainer", "mapViewDidStopLocatingUser"]
+- ["PSo21UIAppearanceContainer", "mapViewWillStartLoadingMap"]
+- ["PSo21UIAppearanceContainer", "mapViewWillStartLocatingUser"]
+- ["PSo21UIAppearanceContainer", "mapViewWillStartRenderingMap"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "locationManager"]
+- ["PSo18UIContentContainer", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UIContentContainer", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UIContentContainer", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UIContentContainer", "mapView"]
+- ["PSo18UIContentContainer", "mapViewDidFailLoadingMap"]
+- ["PSo18UIContentContainer", "mapViewDidFinishLoadingMap"]
+- ["PSo18UIContentContainer", "mapViewDidFinishRenderingMap"]
+- ["PSo18UIContentContainer", "mapViewDidStopLocatingUser"]
+- ["PSo18UIContentContainer", "mapViewWillStartLoadingMap"]
+- ["PSo18UIContentContainer", "mapViewWillStartLocatingUser"]
+- ["PSo18UIContentContainer", "mapViewWillStartRenderingMap"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "locationManager"]
+- ["PSo18UIFocusEnvironment", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UIFocusEnvironment", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UIFocusEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UIFocusEnvironment", "mapView"]
+- ["PSo18UIFocusEnvironment", "mapViewDidFailLoadingMap"]
+- ["PSo18UIFocusEnvironment", "mapViewDidFinishLoadingMap"]
+- ["PSo18UIFocusEnvironment", "mapViewDidFinishRenderingMap"]
+- ["PSo18UIFocusEnvironment", "mapViewDidStopLocatingUser"]
+- ["PSo18UIFocusEnvironment", "mapViewWillStartLoadingMap"]
+- ["PSo18UIFocusEnvironment", "mapViewWillStartLocatingUser"]
+- ["PSo18UIFocusEnvironment", "mapViewWillStartRenderingMap"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "locationManager"]
+- ["CSo11UIResponder", "locationManagerDidPauseLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerDidResumeLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo11UIResponder", "mapView"]
+- ["CSo11UIResponder", "mapViewDidFailLoadingMap"]
+- ["CSo11UIResponder", "mapViewDidFinishLoadingMap"]
+- ["CSo11UIResponder", "mapViewDidFinishRenderingMap"]
+- ["CSo11UIResponder", "mapViewDidStopLocatingUser"]
+- ["CSo11UIResponder", "mapViewWillStartLoadingMap"]
+- ["CSo11UIResponder", "mapViewWillStartLocatingUser"]
+- ["CSo11UIResponder", "mapViewWillStartRenderingMap"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "locationManager"]
+- ["PSo16UIStateRestoring", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16UIStateRestoring", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16UIStateRestoring", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo16UIStateRestoring", "mapView"]
+- ["PSo16UIStateRestoring", "mapViewDidFailLoadingMap"]
+- ["PSo16UIStateRestoring", "mapViewDidFinishLoadingMap"]
+- ["PSo16UIStateRestoring", "mapViewDidFinishRenderingMap"]
+- ["PSo16UIStateRestoring", "mapViewDidStopLocatingUser"]
+- ["PSo16UIStateRestoring", "mapViewWillStartLoadingMap"]
+- ["PSo16UIStateRestoring", "mapViewWillStartLocatingUser"]
+- ["PSo16UIStateRestoring", "mapViewWillStartRenderingMap"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "locationManager"]
+- ["PSo18UITraitEnvironment", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UITraitEnvironment", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UITraitEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UITraitEnvironment", "mapView"]
+- ["PSo18UITraitEnvironment", "mapViewDidFailLoadingMap"]
+- ["PSo18UITraitEnvironment", "mapViewDidFinishLoadingMap"]
+- ["PSo18UITraitEnvironment", "mapViewDidFinishRenderingMap"]
+- ["PSo18UITraitEnvironment", "mapViewDidStopLocatingUser"]
+- ["PSo18UITraitEnvironment", "mapViewWillStartLoadingMap"]
+- ["PSo18UITraitEnvironment", "mapViewWillStartLocatingUser"]
+- ["PSo18UITraitEnvironment", "mapViewWillStartRenderingMap"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "locationManager"]
+- ["CSo16UIViewController", "locationManagerDidPauseLocationUpdates"]
+- ["CSo16UIViewController", "locationManagerDidResumeLocationUpdates"]
+- ["CSo16UIViewController", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo16UIViewController", "mapView"]
+- ["CSo16UIViewController", "mapViewDidFailLoadingMap"]
+- ["CSo16UIViewController", "mapViewDidFinishLoadingMap"]
+- ["CSo16UIViewController", "mapViewDidFinishRenderingMap"]
+- ["CSo16UIViewController", "mapViewDidStopLocatingUser"]
+- ["CSo16UIViewController", "mapViewWillStartLoadingMap"]
+- ["CSo16UIViewController", "mapViewWillStartLocatingUser"]
+- ["CSo16UIViewController", "mapViewWillStartRenderingMap"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo25CLLocationManagerDelegate"
+- "Ps11CVarArgType"
+- "C8AJMapKit20CompleteRegisterView"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo17MKMapViewDelegate"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/AJMapKit-Bridging-Header.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GoogleMaps.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteFilter.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteMatchFragment.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompletePrediction.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlace.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihood.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihoodList.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePicker.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePickerConfig.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesClient.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesMacros.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUserAddedPlace.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceTypes.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFDefines.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPurchase.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFProduct.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFPush.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFInstallation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSession.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRole.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFRelation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFQuery.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFFile.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConfig.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFCloud.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFObject.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFUser.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFConstants.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/PFACL.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/ParseUI.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFTableViewCell.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFPurchaseTableViewCell.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFCollectionViewCell.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFTextField.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFImageView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFProductTableViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFQueryCollectionViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFQueryTableViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFSignUpViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFSignUpView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFLogInViewController.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFLogInView_Private.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/ParseUIConstants.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/PFLogInView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/ParseUI-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseCrashReporting.framework/Headers/ParseCrashReporting.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseCrashReporting.framework/Headers/ParseCrashReporting-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseCrashReporting.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers/FTUtils+UIGestureRecognizer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers/FTUtils+NSObject.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers/FTUtils.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers/FTAnimation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers/FTAnimationManager.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers/FTAnimation+UIView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers/FTUtils-umbrella.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Modules/module.modulemap"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceTypes.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacesMacros.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacesClient.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacePickerConfig.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlacePicker.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPlace.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+interface-hash: "1878a12f3070588d7d2deb9ce565d992"

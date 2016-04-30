@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -44,7 +44,7 @@
         {
           'type': 'file',
           'name': "Bolts-Swift.h",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-Swift.h"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-Swift.h"
         },
         {
           'type': 'file',
@@ -65,18 +65,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Bolts.framework/Modules",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Bolts.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -106,7 +106,7 @@
         {
           'type': 'file',
           'name': "FTUtils-Swift.h",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Headers/FTUtils-Swift.h"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Headers/FTUtils-Swift.h"
         },
         {
           'type': 'file',
@@ -122,23 +122,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/FTUtils.framework/Modules",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/FTUtils.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphoneos/FTUtils.build/module.modulemap"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphonesimulator/FTUtils.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/MBProgressHUD.framework/Headers",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/MBProgressHUD.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "MBProgressHUD-Swift.h",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
         },
         {
           'type': 'file',
@@ -154,18 +154,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/MBProgressHUD.framework/Modules",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/MBProgressHUD.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphoneos/MBProgressHUD.build/module.modulemap"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphonesimulator/MBProgressHUD.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -280,7 +280,7 @@
         {
           'type': 'file',
           'name': "Parse-Swift.h",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Headers/Parse-Swift.h"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Headers/Parse-Swift.h"
         },
         {
           'type': 'file',
@@ -296,23 +296,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Parse.framework/Modules",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Parse.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphoneos/Parse.build/module.modulemap"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Parse.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseCrashReporting.framework/Headers",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseCrashReporting.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ParseCrashReporting-Swift.h",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseCrashReporting.framework/Headers/ParseCrashReporting-Swift.h"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseCrashReporting.framework/Headers/ParseCrashReporting-Swift.h"
         },
         {
           'type': 'file',
@@ -328,23 +328,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseCrashReporting.framework/Modules",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseCrashReporting.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphoneos/ParseCrashReporting.build/module.modulemap"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphonesimulator/ParseCrashReporting.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseModel.framework/Headers",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseModel.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ParseModel-Swift.h",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseModel.framework/Headers/ParseModel-Swift.h"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseModel.framework/Headers/ParseModel-Swift.h"
         },
         {
           'type': 'file',
@@ -375,18 +375,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseModel.framework/Modules",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseModel.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphoneos/ParseModel.build/module.modulemap"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphonesimulator/ParseModel.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -456,7 +456,7 @@
         {
           'type': 'file',
           'name': "ParseUI-Swift.h",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Headers/ParseUI-Swift.h"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Headers/ParseUI-Swift.h"
         },
         {
           'type': 'file',
@@ -477,23 +477,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/ParseUI.framework/Modules",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/ParseUI.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphoneos/ParseUI.build/module.modulemap"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphonesimulator/ParseUI.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Pods.framework/Headers",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Pods.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-Swift.h",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Pods.framework/Headers/Pods-Swift.h"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
         },
         {
           'type': 'file',
@@ -504,12 +504,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphoneos/Pods.framework/Modules",
+      'name': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Products/Debug-iphonesimulator/Pods.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/module.modulemap"
+          'external-contents': "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
         }
       ]
     }

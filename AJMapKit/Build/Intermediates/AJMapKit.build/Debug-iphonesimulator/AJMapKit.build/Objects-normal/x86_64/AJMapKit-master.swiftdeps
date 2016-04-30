@@ -1,0 +1,14 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "fd2118031a11e5d121668144b05c0b0d"
+build_time: [515368470, 986887000]
+inputs:
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/RegisterLocationView.swift": [515066054, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/ViewController.swift": [501530007, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/myRoom.swift": [515082072, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/Checking.swift": [515331465, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/CafeView.swift": [515065718, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/FoodsView.swift": [515331604, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/RegisterView.swift": [502054420, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/AppDelegate.swift": [513938126, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/GmsMapView.swift": [514645285, 0]
+  "/Users/Adiletqozha/Desktop/Tamaqtapp/AJMapKit/AJMapKit/CompleteRegisterView.swift": [501606754, 0]
