@@ -19,7 +19,7 @@ import MapKit
 import CoreLocation
 import GoogleMaps
 import Parse
-
+import MBProgressHUD
 
 class ComplexView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,UITableViewDataSource,UITableViewDelegate {
     
@@ -27,46 +27,68 @@ class ComplexView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
     
     @IBOutlet weak var DateEnd: UIDatePicker!
     @IBOutlet weak var myTableView: UITableView!
-   
+           var complex:NSMutableArray!
     var foods:NSArray!
     var dataParse:NSMutableArray = NSMutableArray()
     var refreshControl: UIRefreshControl!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.myTableView.setEditing(true, animated: true)
         self.myTableView.allowsMultipleSelectionDuringEditing = true
-        refreshControl = UIRefreshControl()
-        refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
-        refreshControl.addTarget(self, action: "loadfoods", forControlEvents: UIControlEvents.ValueChanged)
-        myTableView.addSubview(refreshControl)
-        
-        
-        NSNotificationCenter.defaultCenter().addObserver(
-            self,
-            selector:"refreshtable:",
-            name:"refreshtable",
-            object: nil)
-        
         loadfoods()
-        
-        
-        
         //     let arrays:NSArray = self.dataParse.reverseObjectEnumerator().allObjects
         //  self.dataParse = array as NSMutableArray
         // self.dataParse=NSMutableArray(array: arrays)
-        
         self.myTableView.reloadData()
         
     }
     
     
-    func refreshtable(notification: NSNotification){
+    
+    
+    @IBAction func Done(sender: AnyObject) {
+        
+        let selectedRows = self.myTableView.indexPathsForSelectedRows!
+        var complexs:NSMutableArray=NSMutableArray()
+        for i:NSIndexPath in selectedRows
+        {
+            print(dataParse.count)
+            var s:PFObject = self.dataParse[i.row] as! PFObject
+            print(s["name"])
+            //    var d:PFObject!=self.dataParse[0] as! PFObject
+            complexs.addObject(s.objectId!)
+        }
         
         
-        loadfoods()
+        let loadingNotification = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+        loadingNotification.mode = MBProgressHUDMode.Indeterminate
+        loadingNotification.labelText = "Loading"
         
         
+        
+        let query = PFObject(className:"ComplexMenu")
+        query["place"] = PFUser.currentUser()
+        query["foods"] = complexs
+        query["beginTime"] = DateBegin.date
+        query["endTime"] = DateEnd.date
+        
+        
+        query.saveInBackgroundWithBlock { (_success:Bool, _error:NSError?) -> Void in
+            if _error == nil
+            {
+                // yay its saved
+                MBProgressHUD.hideAllHUDsForView(self.view, animated: true)
+                
+               // self.dismissViewControllerAnimated(true, completion: nil)
+                self.navigationController!.pushViewController(self.storyboard!.instantiateViewControllerWithIdentifier("myRoom") as UIViewController, animated: true)
+                
+
+            }}
     }
+    
+    
+    
     
     
     func loadfoods (){
@@ -82,9 +104,9 @@ class ComplexView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
                 }
                 
             }
-            print (self.dataParse.count)
+
             self.myTableView.reloadData()
-            self.refreshControl.endRefreshing()
+
             
         }
         
@@ -135,23 +157,4 @@ class ComplexView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    @IBAction func AddFood(sender: AnyObject) {
-    }
 }

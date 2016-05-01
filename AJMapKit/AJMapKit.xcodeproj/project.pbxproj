@@ -17,6 +17,7 @@
 		2E7AA9531C03663200AB84D0 /* RegisterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AA9521C03663200AB84D0 /* RegisterLocationView.swift */; };
 		2E7AA9561C087BC600AB84D0 /* myRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7AA9551C087BC600AB84D0 /* myRoom.swift */; };
 		2E96028E1CD6228200E1090D /* ComplexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96028D1CD6228200E1090D /* ComplexView.swift */; };
+		2E9602901CD66FDA00E1090D /* ShowComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96028F1CD66FDA00E1090D /* ShowComplex.swift */; };
 		2EF6FC011C0232DF007A9E5F /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFC1C0232DF007A9E5F /* libBolts.a */; };
 		2EF6FC021C0232DF007A9E5F /* libParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFD1C0232DF007A9E5F /* libParse.a */; };
 		2EF6FC031C0232DF007A9E5F /* libParseCrashReporting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */; };
@@ -54,6 +55,7 @@
 		2E7AA9521C03663200AB84D0 /* RegisterLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLocationView.swift; sourceTree = "<group>"; };
 		2E7AA9551C087BC600AB84D0 /* myRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myRoom.swift; sourceTree = "<group>"; };
 		2E96028D1CD6228200E1090D /* ComplexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexView.swift; sourceTree = "<group>"; };
+		2E96028F1CD66FDA00E1090D /* ShowComplex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowComplex.swift; sourceTree = "<group>"; };
 		2EF6FBFC1C0232DF007A9E5F /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "Pods/../build/Debug-iphoneos/libBolts.a"; sourceTree = "<group>"; };
 		2EF6FBFD1C0232DF007A9E5F /* libParse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParse.a; path = "Pods/../build/Debug-iphoneos/libParse.a"; sourceTree = "<group>"; };
 		2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseCrashReporting.a; path = "Pods/../build/Debug-iphoneos/libParseCrashReporting.a"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				2E74E1261C024DEA006ED1F3 /* RegisterView.swift */,
 				A9A379421B1FF07400E8AAB0 /* ViewController.swift */,
 				A9A379441B1FF07400E8AAB0 /* Main.storyboard */,
+				2E96028F1CD66FDA00E1090D /* ShowComplex.swift */,
 				2E96028D1CD6228200E1090D /* ComplexView.swift */,
 				2E7314541CD0CED800E2C493 /* Checking.swift */,
 				2E73144E1CC937F100E2C493 /* FoodsView.swift */,
@@ -357,6 +360,7 @@
 				2E7AA9561C087BC600AB84D0 /* myRoom.swift in Sources */,
 				2E7314551CD0CED800E2C493 /* Checking.swift in Sources */,
 				2E73144D1CC78BE900E2C493 /* CafeView.swift in Sources */,
+				2E9602901CD66FDA00E1090D /* ShowComplex.swift in Sources */,
 				2E73144F1CC937F100E2C493 /* FoodsView.swift in Sources */,
 				2E96028E1CD6228200E1090D /* ComplexView.swift in Sources */,
 				2E74E1271C024DEA006ED1F3 /* RegisterView.swift in Sources */,
