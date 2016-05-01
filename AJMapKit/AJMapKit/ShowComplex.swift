@@ -59,6 +59,7 @@ class ShowComplex: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
     
     func loadfoods (){
         var query = PFQuery(className: "ComplexMenu")
+        query.whereKey("place", equalTo: PFUser.currentUser()!)
         var temp:NSMutableArray=NSMutableArray()
         query.orderByDescending("createdAt")
         query.getFirstObjectInBackgroundWithBlock {(object: PFObject?, error: NSError?) -> Void in

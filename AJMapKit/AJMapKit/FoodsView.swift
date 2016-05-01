@@ -59,6 +59,7 @@ class FoodsView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,
     func loadfoods (){
         self.dataParse.removeAllObjects()
         let query2 = PFQuery(className: "Foods")
+        query2.whereKey("place", equalTo: PFUser.currentUser()!)
         query2.findObjectsInBackgroundWithBlock {
             (objects, error) -> Void in
             

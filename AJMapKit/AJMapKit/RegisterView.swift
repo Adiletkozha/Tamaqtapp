@@ -38,9 +38,9 @@ class RegisterView: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
             
             var user:PFUser!
             user=PFUser()
-            user.username=loginText.text
+            user.email=loginText.text?.lowercaseString
             user.password=passwordText.text
-            user["name"]=nameText.text
+            user.username=loginText.text?.lowercaseString
             user["type"]=typeText.text
             user["administratorText"]=administratorText.text
             user["phone"]=phoneText.text

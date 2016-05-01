@@ -21,6 +21,7 @@ class myRoom: UIViewController, CLLocationManagerDelegate {
         var date1:NSDate!
 
         var query = PFQuery(className: "ComplexMenu")
+        query.whereKey("place", equalTo: PFUser.currentUser()!)
         query.orderByDescending("createdAt")
         query.getFirstObjectInBackgroundWithBlock {(object: PFObject?, error: NSError?) -> Void in
             if error==nil{
