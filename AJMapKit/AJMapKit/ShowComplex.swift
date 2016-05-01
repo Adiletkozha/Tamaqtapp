@@ -27,7 +27,7 @@ class ShowComplex: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
     @IBOutlet weak var DateBegin: UILabel!
     @IBOutlet weak var DateEnd: UILabel!
     @IBOutlet weak var myTableView: UITableView!
-
+    var lastComplex:PFObject!
     var foods:NSArray!
     var dataParse:NSMutableArray = NSMutableArray()
     var refreshControl: UIRefreshControl!
@@ -63,10 +63,10 @@ class ShowComplex: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
         query.orderByDescending("createdAt")
         query.getFirstObjectInBackgroundWithBlock {(object: PFObject?, error: NSError?) -> Void in
             if error==nil{
-                var c:PFObject=object!
-                temp=c["foods"]as! NSMutableArray
-                let d1:NSDate=c["beginTime"] as! NSDate
-                let d2:NSDate=c["endTime"] as! NSDate
+                self.lastComplex=object!
+                temp=self.lastComplex["foods"]as! NSMutableArray
+                let d1:NSDate=self.lastComplex["beginTime"] as! NSDate
+                let d2:NSDate=self.lastComplex["endTime"] as! NSDate
                 
                 
            
@@ -125,11 +125,14 @@ class ShowComplex: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
     func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!) {
         
         let obj:PFObject=self.dataParse[indexPath.row] as! PFObject
-        obj.deleteInBackgroundWithBlock { (succeeded: Bool, error: NSError?) -> Void in
-            
-            // succeeded = true, but record was not deleted....
-        }
         self.dataParse.removeObject(obj)
+        var temp:NSMutableArray=NSMutableArray()
+        for(var i=0;i<dataParse.count;i++){
+            var d:PFObject=self.dataParse[i] as! PFObject
+            temp.addObject(d.objectId!)
+        }
+        self.lastComplex["foods"]=temp
+        self.lastComplex.saveInBackground()
         self.myTableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
     }
     
