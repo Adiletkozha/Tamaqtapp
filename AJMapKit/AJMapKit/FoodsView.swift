@@ -22,7 +22,6 @@ class FoodsView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,
     var refreshControl: UIRefreshControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         refreshControl = UIRefreshControl()
         refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
         refreshControl.addTarget(self, action: "loadfoods", forControlEvents: UIControlEvents.ValueChanged)

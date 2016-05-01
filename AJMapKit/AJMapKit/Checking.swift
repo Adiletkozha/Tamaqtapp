@@ -93,12 +93,17 @@ class Checking: UIViewController, CLLocationManagerDelegate ,UIPickerViewDataSou
     }
     
     @IBAction func Done(sender: AnyObject) {
+        print(PFUser.currentUser())
         let query = PFObject(className:"Foods")
         query["name"] = FoodName.text
         query["price"] = FoodPrice.text
         query["description"] = FoodDescription.text
         query["type"] = FoodTypeText
         query["place"] = PFUser.currentUser()
+        
+        let loadingNotification = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+        loadingNotification.mode = MBProgressHUDMode.Indeterminate
+        loadingNotification.labelText = "Loading"
         
         let imageData: NSData = UIImageJPEGRepresentation(foodsImage, 1.0)!
         let imageFile: PFFile = PFFile(name:"image.jpg", data:imageData)!
@@ -107,16 +112,16 @@ class Checking: UIViewController, CLLocationManagerDelegate ,UIPickerViewDataSou
             if _error == nil
             {
                 // yay its saved
+                MBProgressHUD.hideAllHUDsForView(self.view, animated: true)
+                NSNotificationCenter.defaultCenter().postNotificationName("refreshtable", object: self)
+                
+                self.dismissViewControllerAnimated(true, completion: nil)
+                
             }}
-        
-        var alert = UIAlertController(title: "Успешно", message: "Удерживая палец на маркере вы можете передвигать его", preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
 
         
-      NSNotificationCenter.defaultCenter().postNotificationName("refreshtable", object: self)
         
-        self.dismissViewControllerAnimated(true, completion: nil)
-        
+   
     }
     
 
