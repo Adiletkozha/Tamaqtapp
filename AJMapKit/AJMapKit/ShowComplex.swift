@@ -75,9 +75,9 @@ class ShowComplex: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
                 var dateFormatter = NSDateFormatter()
                 dateFormatter.dateFormat = "hh:mm" //format style. Browse online to get a format that fits your needs.
                 var dateString = dateFormatter.stringFromDate(d1)
-                self.DateBegin.text = dateString
+          
                 var dateString2 = dateFormatter.stringFromDate(d2)
-                self.DateEnd.text = dateString2
+                    self.DateBegin.text = " с "+dateString+" до "+dateString2
                 
                 for (var i=0;i<temp.count;i=i+1){
                     var query2 = PFQuery(className: "Foods")

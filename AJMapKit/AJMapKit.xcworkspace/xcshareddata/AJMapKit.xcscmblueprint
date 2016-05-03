@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6CFE70E7DEA0318AA36E6C5971E9B5F1E41CA285",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1C0EF019CC120A5304A78DABE9EBB092306C7F49" : 0,
+    "6CFE70E7DEA0318AA36E6C5971E9B5F1E41CA285" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "47A2EB1D-E1AE-44DB-B212-17F57132C857",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1C0EF019CC120A5304A78DABE9EBB092306C7F49" : "samples\/",
+    "6CFE70E7DEA0318AA36E6C5971E9B5F1E41CA285" : "Tamaqtapp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AJMapKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AJMapKit\/AJMapKit.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Adiletkozha\/Organization.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1C0EF019CC120A5304A78DABE9EBB092306C7F49"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Adiletkozha\/Tamaqtapp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CFE70E7DEA0318AA36E6C5971E9B5F1E41CA285"
+    }
+  ]
+}

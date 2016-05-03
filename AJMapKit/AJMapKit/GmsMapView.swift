@@ -11,12 +11,22 @@ import Parse
 
 class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate {
     var seenError : Bool = false
+    @IBOutlet weak var CafeName: UILabel!
     var locationFixAchieved : Bool = false
     var locationStatus : NSString = "Not Started"
     var locationisselected=0;
+    var showDetail:PFObject!
+    @IBOutlet weak var NameOf: UILabel!
+    @IBOutlet weak var TypeCafe: UILabel!
+    @IBOutlet weak var IfComplex: UILabel!
     var locationManager: CLLocationManager!
     var itemsposition:CLLocationCoordinate2D!
     var markerlocations:NSArray!
+    var complex=""
+    
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -70,8 +80,10 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
                     let localParse = CLLocationCoordinate2D(latitude: getLatParse, longitude: getLongParse)
                     var marker = GMSMarker()
                     marker.position = CLLocationCoordinate2DMake(localParse.latitude, localParse.longitude)
-                    marker.title = "Sydney"
+                   // marker.title = s["name"] as! String
                     marker.snippet = "Australia"
+                  //  marker.userData=s.objectId! as String
+                    marker.userData=s
                     marker.map = mapView
                 }
             }}
@@ -91,38 +103,91 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
     
     func mapView(mapView:GMSMapView!, didTapInfoWindowOfMarker marker:GMSMarker!){
         // print("start dragging")
-        print("hello")
+
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         
-        let secondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("CafeViewS") as! CafeView
-     //   self.navigationController?.pushViewController(secondViewController, animated: true)
-        print("bye")
+       let secondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("CafeViewS") as! CafeView
+        secondViewController.showCafe=marker.userData as! PFObject
+        print(secondViewController.showCafe["name"])
+        self.navigationController?.pushViewController(secondViewController, animated: true)
+        
         
         
         
  
-        performSegueWithIdentifier("hello", sender: nil)
+       // performSegueWithIdentifier("hello", sender: nil)
     }
     
 
     
     
     func mapView(mapView: GMSMapView!, markerInfoWindow marker: GMSMarker!) -> UIView! {
-        let button   = UIButton(type: UIButtonType.System) as UIButton
-        button.frame = CGRectMake(0, 0, 60, 20)
-        button.backgroundColor = UIColor.blackColor()
-        button.setTitle("Show", forState: UIControlState.Normal)
-        button.addTarget(self, action: "buttonAction:", forControlEvents: UIControlEvents.TouchUpInside)
-       
-     
+
+        if let nibsView = NSBundle.mainBundle().loadNibNamed("GmsMapView", owner: self, options: nil) as? [UIView] {
+            
+            let nibRoot = nibsView[0]
+            var g:PFObject=marker.userData as! PFObject
+            self.showDetail=g
+            
+          
+
+            var date1:NSDate!
+            var query = PFQuery(className: "ComplexMenu")
+            query.whereKey("place", equalTo: g)
+            query.orderByDescending("createdAt")
+            query.getFirstObjectInBackgroundWithBlock {(object: PFObject?, error: NSError?) -> Void in
+                if error==nil{
+                    var c:PFObject=object!
+                    date1=c["endTime"] as! NSDate
+                    let date2 : NSDate = NSDate() //initialized by default with the current date
+                    
+                    let compareResult = date1.compare(date2)
+                    if compareResult == NSComparisonResult.OrderedDescending {
+
+                        
+                        var dateFormatter = NSDateFormatter()
+                        dateFormatter.dateFormat = "hh:mm" //format style. Browse online to get a format that fits your needs.
+                        var dateString = dateFormatter.stringFromDate(c["beginTime"] as! NSDate)
+                        let DateBegin = dateString
+                        var dateString2 = dateFormatter.stringFromDate(c["endTime"]as! NSDate)
+                        let DateEnd = dateString2
+                     //   let complex="с "+DateBegin+" до " + DateEnd
+
+                        self.complex += "c "
+                        self.complex += DateBegin
+                        self.complex += " до "
+                        self.complex += DateEnd
+           
+
+                    }
+                }}
+            self.NameOf.text=g["name"] as! String
+            self.TypeCafe.text=g["type"] as! String
+
+            self.IfComplex.text=self.complex
+            self.IfComplex.backgroundColor=UIColor.greenColor()
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            return nibRoot
         
-    
-        var DynamicView=UIView(frame: CGRectMake(0, 0, 200, 50))
-        DynamicView.backgroundColor=UIColor.greenColor()
-        DynamicView.addSubview(button)
-        return DynamicView
+//    
+//        var DynamicView=UIView(frame: CGRectMake(0, 0, 150, 40))
+//        DynamicView.backgroundColor=UIColor.greenColor()
+//        DynamicView.addSubview(button)
+//        return DynamicView
     }
-    
+        return nil
+    }
 
     
 
@@ -149,9 +214,6 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
             var locationObj = locationArray.lastObject as! CLLocation
             var coord = locationObj.coordinate
             
-            print(coord.latitude)
-            print(coord.longitude)
-            print("something")
         }
     }
     
