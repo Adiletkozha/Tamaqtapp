@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6371AFA460FC62D53724DFDB'
+               BlueprintIdentifier = 'EB653390705D8FD0EB7D927C'
                BlueprintName = 'FTUtils'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'FTUtils.framework'>

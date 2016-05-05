@@ -25,11 +25,6 @@
 		2EA9AA651CDA6CB9004DE12C /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9AA641CDA6CB9004DE12C /* CustomTabbar.swift */; };
 		2EA9AA671CDB9271004DE12C /* AboutCafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9AA661CDB9271004DE12C /* AboutCafe.swift */; };
 		2EA9AA6D1CDBA7E8004DE12C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9AA6C1CDBA7E8004DE12C /* NavigationController.swift */; };
-		2EF6FC011C0232DF007A9E5F /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFC1C0232DF007A9E5F /* libBolts.a */; };
-		2EF6FC021C0232DF007A9E5F /* libParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFD1C0232DF007A9E5F /* libParse.a */; };
-		2EF6FC031C0232DF007A9E5F /* libParseCrashReporting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */; };
-		2EF6FC041C0232DF007A9E5F /* libParseModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFF1C0232DF007A9E5F /* libParseModel.a */; };
-		2EF6FC051C0232DF007A9E5F /* libParseUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FC001C0232DF007A9E5F /* libParseUI.a */; };
 		2EF6FC071C023652007A9E5F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FC061C023652007A9E5F /* libsqlite3.0.tbd */; };
 		A9A379411B1FF07400E8AAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A379401B1FF07400E8AAB0 /* AppDelegate.swift */; };
 		A9A379431B1FF07400E8AAB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A379421B1FF07400E8AAB0 /* ViewController.swift */; };
@@ -70,11 +65,6 @@
 		2EA9AA641CDA6CB9004DE12C /* CustomTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
 		2EA9AA661CDB9271004DE12C /* AboutCafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCafe.swift; sourceTree = "<group>"; };
 		2EA9AA6C1CDBA7E8004DE12C /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		2EF6FBFC1C0232DF007A9E5F /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "Pods/../build/Debug-iphoneos/libBolts.a"; sourceTree = "<group>"; };
-		2EF6FBFD1C0232DF007A9E5F /* libParse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParse.a; path = "Pods/../build/Debug-iphoneos/libParse.a"; sourceTree = "<group>"; };
-		2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseCrashReporting.a; path = "Pods/../build/Debug-iphoneos/libParseCrashReporting.a"; sourceTree = "<group>"; };
-		2EF6FBFF1C0232DF007A9E5F /* libParseModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseModel.a; path = "Pods/../build/Debug-iphoneos/libParseModel.a"; sourceTree = "<group>"; };
-		2EF6FC001C0232DF007A9E5F /* libParseUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseUI.a; path = "Pods/../build/Debug-iphoneos/libParseUI.a"; sourceTree = "<group>"; };
 		2EF6FC061C023652007A9E5F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		7FE62FF48C81BD3F35EFBF4B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A0B7B9DA956E6413312FE754 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,11 +87,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EF6FC071C023652007A9E5F /* libsqlite3.0.tbd in Frameworks */,
-				2EF6FC011C0232DF007A9E5F /* libBolts.a in Frameworks */,
-				2EF6FC021C0232DF007A9E5F /* libParse.a in Frameworks */,
-				2EF6FC031C0232DF007A9E5F /* libParseCrashReporting.a in Frameworks */,
-				2EF6FC041C0232DF007A9E5F /* libParseModel.a in Frameworks */,
-				2EF6FC051C0232DF007A9E5F /* libParseUI.a in Frameworks */,
 				2E52FAE61BEE6D9C007AA846 /* MapKit.framework in Frameworks */,
 				DAC9BAD8553603D4B6788F78 /* Pods.framework in Frameworks */,
 			);
@@ -121,11 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				2EF6FC061C023652007A9E5F /* libsqlite3.0.tbd */,
-				2EF6FBFC1C0232DF007A9E5F /* libBolts.a */,
-				2EF6FBFD1C0232DF007A9E5F /* libParse.a */,
-				2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */,
-				2EF6FBFF1C0232DF007A9E5F /* libParseModel.a */,
-				2EF6FC001C0232DF007A9E5F /* libParseUI.a */,
 				B76D9DAFB98BEADD6BB84CEA /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -456,6 +436,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -474,10 +455,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -501,6 +484,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -512,10 +496,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

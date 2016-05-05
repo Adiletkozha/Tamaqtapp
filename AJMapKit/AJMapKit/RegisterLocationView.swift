@@ -73,6 +73,7 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
         }
         
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         ReadyShow.hidden=true;
@@ -117,6 +118,7 @@ class RegisterLocationView: UIViewController,CLLocationManagerDelegate,GMSMapVie
         
         
     }
+
     
     
     func userAssign(){

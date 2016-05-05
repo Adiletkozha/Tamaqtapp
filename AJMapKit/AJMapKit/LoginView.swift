@@ -13,7 +13,7 @@ import GoogleMaps
 import Parse
 
 
-class LoginView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class LoginView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,UITextFieldDelegate {
    
     
     @IBOutlet weak var emailF: UITextField!
@@ -24,8 +24,21 @@ class LoginView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate 
     override func viewDidLoad() {
 
         super.viewDidLoad()
+        emailF.delegate=self
+        passwordF.delegate=self
     }
  
+    
+    
+    
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    
+    
     @IBAction func Login(sender: AnyObject) {
         
         var mail:String=self.emailF.text!.lowercaseString

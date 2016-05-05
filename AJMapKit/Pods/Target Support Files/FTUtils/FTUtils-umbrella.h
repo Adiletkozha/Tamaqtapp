@@ -8,5 +8,3 @@
 #import "FTUtils.h"
 
 FOUNDATION_EXPORT double FTUtilsVersionNumber;
-//FOUNDATION_EXPORT const unsigned char FTUtilsVersionString[];
-

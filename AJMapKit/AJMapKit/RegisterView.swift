@@ -12,7 +12,7 @@ import CoreLocation
 import GoogleMaps
 import Parse
 
-class RegisterView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class RegisterView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,UITextFieldDelegate {
 
    
     @IBOutlet weak var loginText: UITextField!
@@ -27,9 +27,17 @@ class RegisterView: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
     var noerror=0
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
+        self.loginText.delegate=self
+        self.passwordText.delegate=self
+        self.nameText.delegate=self
+        self.typeText.delegate=self
+        self.administratorText.delegate=self
+        self.phoneText.delegate=self
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
     override func shouldPerformSegueWithIdentifier(identifier: String!, sender: AnyObject!) -> Bool {

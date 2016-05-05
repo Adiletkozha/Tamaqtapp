@@ -12,7 +12,7 @@ import GoogleMaps
 import Parse
 import MBProgressHUD
 
-class Checking: UIViewController, CLLocationManagerDelegate ,UIPickerViewDataSource, UIPickerViewDelegate,UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class Checking: UIViewController, CLLocationManagerDelegate ,UIPickerViewDataSource, UIPickerViewDelegate,UIImagePickerControllerDelegate, UINavigationControllerDelegate,UITextFieldDelegate{
     
     
     @IBOutlet weak var FoodImage: UIImageView!
@@ -31,6 +31,9 @@ class Checking: UIViewController, CLLocationManagerDelegate ,UIPickerViewDataSou
     var FoodTypeText="I-блюдо"
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.FoodName.delegate=self
+        self.FoodPrice.delegate=self
+        self.FoodDescription.delegate=self
         let tapGestureRecognizer = UITapGestureRecognizer(target:self, action:Selector("imageTapped:"))
         FoodImage.userInteractionEnabled = true
         FoodImage.addGestureRecognizer(tapGestureRecognizer)
@@ -40,6 +43,11 @@ class Checking: UIViewController, CLLocationManagerDelegate ,UIPickerViewDataSou
 
     }
    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
     func imageTapped(img: AnyObject)
     {
        	let picker = UIImagePickerController()
