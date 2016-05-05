@@ -30,6 +30,7 @@ class ShowComplex: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
     var lastComplex:PFObject!
     var foods:NSArray!
     var dataParse:NSMutableArray = NSMutableArray()
+    var dataParse2:NSMutableArray = NSMutableArray()
     var refreshControl: UIRefreshControl!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -94,7 +95,7 @@ class ShowComplex: UIViewController, MKMapViewDelegate, CLLocationManagerDelegat
                     
                 }
 
-                print(self.dataParse.count)
+                print(self.dataParse2.count)
             }
         }
         

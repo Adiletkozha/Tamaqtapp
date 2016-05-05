@@ -30,7 +30,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6RE-Ox-Ze0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25.5" y="-1495.5"/>
+            <point key="canvasLocation" x="-306.5" y="-1503.5"/>
         </scene>
         <!--Поиск-->
         <scene sceneID="VDa-ck-yec">
@@ -62,13 +62,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jmT-TS-gte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33.5" y="-691.5"/>
+            <point key="canvasLocation" x="-858.5" y="-495.5"/>
         </scene>
         <!--Карта-->
         <scene sceneID="XnC-M3-3iL">
             <objects>
                 <navigationController id="mOn-9t-yW8" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Карта" selectedImage="iOS_icons.png" id="1op-9Y-89b"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xon-Vk-ILD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -79,7 +80,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0W-Ng-S5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-960" y="-1420"/>
+            <point key="canvasLocation" x="-900" y="-1512"/>
         </scene>
         <!--Настройки-->
         <scene sceneID="Kah-wQ-gTH">
@@ -116,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6od-NN-BiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-909.5" y="84.5"/>
+            <point key="canvasLocation" x="-835.5" y="364.5"/>
         </scene>
         <!--Cafe-->
         <scene sceneID="wy1-wr-feL">
@@ -131,7 +132,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="79" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="edg-bc-Bvd">
-                                <rect key="frame" x="6" y="158" width="362" height="452"/>
+                                <rect key="frame" x="6" y="155" width="362" height="455"/>
                                 <color key="backgroundColor" red="0.91090626490000004" green="0.93543148539999998" blue="0.95008680560000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myCell" rowHeight="79" id="PCQ-SU-3MZ">
@@ -213,7 +214,11 @@
                     <navigationItem key="navigationItem" title="Cafe" id="qKG-Fv-hRT">
                         <barButtonItem key="backBarButtonItem" title="Н" id="a5Z-VJ-H0Q"/>
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="action" id="MYI-fm-Qwy"/>
+                            <barButtonItem systemItem="action" id="MYI-fm-Qwy">
+                                <connections>
+                                    <action selector="aboutCafe:" destination="Bcf-lG-SII" id="rlL-09-ruY"/>
+                                </connections>
+                            </barButtonItem>
                             <barButtonItem systemItem="compose" id="iAV-qZ-bxS"/>
                         </rightBarButtonItems>
                     </navigationItem>
@@ -226,12 +231,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7el-pt-A1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="784.5" y="-1512.5"/>
+            <point key="canvasLocation" x="245.5" y="-1503.5"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--View Controller-->
+        <scene sceneID="0eM-HA-4Rw">
+            <objects>
+                <viewController id="ofs-A6-xsJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n3q-2K-NKk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tfg-fa-gZM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pwc-C9-tzH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hvh-U5-FSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763.5" y="-1503.5"/>
+        </scene>
+        <!--Custom Tabbar-->
         <scene sceneID="H8I-cf-agx">
             <objects>
-                <tabBarController id="NqJ-hL-Yfi" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="CustomTabbar" id="NqJ-hL-Yfi" customClass="CustomTabbar" customModule="AJMapKit" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="ElR-5W-dW0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -416,7 +440,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fiR-1A-aiE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="245.5" y="-2290.5"/>
+            <point key="canvasLocation" x="245.5" y="-2270.5"/>
         </scene>
         <!--My Room-->
         <scene sceneID="wSv-eh-iqM">
@@ -456,9 +480,9 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="c 22:00 до 23:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpQ-6n-DnE">
                                 <rect key="frame" x="20" y="422" width="335" height="31"/>
-                                <color key="backgroundColor" red="0.84281994047619047" green="0.84281994047619047" blue="0.84281994047619047" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.82931523829999998" green="1" blue="0.94444723330000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="14"/>
-                                <color key="textColor" red="0.84281994049999998" green="0.84281994049999998" blue="0.84281994049999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.2229678363" blue="0.10887423509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chicken Garden" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6w-q1-KFt">
@@ -475,15 +499,6 @@
                                 <color key="textColor" red="1" green="0.2229678363" blue="0.10887423509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sud-ar-rLN">
-                                <rect key="frame" x="203" y="254" width="152" height="142"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="31"/>
-                                <color key="tintColor" red="0.98668261030000004" green="1" blue="0.99749707639999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Обьявление">
-                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8i9-Vu-wtX">
                                 <rect key="frame" x="132" y="597" width="110" height="37"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
@@ -492,6 +507,18 @@
                                 </state>
                                 <connections>
                                     <action selector="logOutButton:" destination="uPs-uv-Ghd" eventType="touchUpInside" id="zPG-MX-fzj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sud-ar-rLN">
+                                <rect key="frame" x="203" y="254" width="152" height="142"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="31"/>
+                                <color key="tintColor" red="0.98668261030000004" green="1" blue="0.99749707639999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Обьявление">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="x0g-ne-vgJ" kind="push" id="3A5-nG-MQm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -508,6 +535,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4pz-AY-96W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2262.5" y="-2409.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="393-7c-mOj">
+            <objects>
+                <viewController id="x0g-ne-vgJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kVF-Q7-Sg0"/>
+                        <viewControllerLayoutGuide type="bottom" id="MnP-TO-ndW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uyc-l1-KrR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wzd-FY-mXF">
+                                <rect key="frame" x="67" y="262" width="240" height="171"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Тема" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6BH-pW-V59">
+                                <rect key="frame" x="67" y="207" width="240" height="30"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOz-3X-ThV">
+                                <rect key="frame" x="156" y="441" width="63" height="30"/>
+                                <state key="normal" title="Готово">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91090626490000004" green="0.93543148539999998" blue="0.95008680560000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fMb-Db-Qgr"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ziz-0j-he2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1638.5" y="-2386.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NUG-7k-7c0">
@@ -800,7 +867,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ted-T8-Jyk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1722.5" y="-3140.5"/>
+            <point key="canvasLocation" x="-1628.5" y="-3197.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FDH-OK-YzQ">
@@ -816,7 +883,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C2A-8e-o7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1093.5" y="-3379.5"/>
+            <point key="canvasLocation" x="-1115.5" y="-3197.5"/>
         </scene>
         <!--Checking-->
         <scene sceneID="9l8-63-iOr">
@@ -895,7 +962,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qhB-WC-HzW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-348.5" y="-4138.5"/>
+            <point key="canvasLocation" x="-558.5" y="-3197.5"/>
         </scene>
         <!--Карта-->
         <scene sceneID="eYT-mR-j9y">
@@ -928,7 +995,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tMy-xR-M65" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="791.5" y="-2270.5"/>
+            <point key="canvasLocation" x="763.5" y="-2270.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Kka-XC-z6p">
@@ -953,6 +1020,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yvq-ev-lOm" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Кабинет" id="4HY-Zj-WD3"/>
                     <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Moh-jW-Jmr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

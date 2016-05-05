@@ -22,6 +22,8 @@
 		2E9602961CD76FF600E1090D /* myroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9602951CD76FF600E1090D /* myroom.png */; };
 		2E96029A1CD7799400E1090D /* iOS_icons.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9602991CD7799400E1090D /* iOS_icons.png */; };
 		2E96029E1CD790C700E1090D /* GmsMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E96029D1CD790C700E1090D /* GmsMapView.xib */; };
+		2EA9AA651CDA6CB9004DE12C /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9AA641CDA6CB9004DE12C /* CustomTabbar.swift */; };
+		2EA9AA671CDB9271004DE12C /* AboutCafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9AA661CDB9271004DE12C /* AboutCafe.swift */; };
 		2EF6FC011C0232DF007A9E5F /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFC1C0232DF007A9E5F /* libBolts.a */; };
 		2EF6FC021C0232DF007A9E5F /* libParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFD1C0232DF007A9E5F /* libParse.a */; };
 		2EF6FC031C0232DF007A9E5F /* libParseCrashReporting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */; };
@@ -64,6 +66,8 @@
 		2E9602951CD76FF600E1090D /* myroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myroom.png; path = ../../../myroom.png; sourceTree = "<group>"; };
 		2E9602991CD7799400E1090D /* iOS_icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_icons.png; sourceTree = SOURCE_ROOT; };
 		2E96029D1CD790C700E1090D /* GmsMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GmsMapView.xib; sourceTree = "<group>"; };
+		2EA9AA641CDA6CB9004DE12C /* CustomTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		2EA9AA661CDB9271004DE12C /* AboutCafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCafe.swift; sourceTree = "<group>"; };
 		2EF6FBFC1C0232DF007A9E5F /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "Pods/../build/Debug-iphoneos/libBolts.a"; sourceTree = "<group>"; };
 		2EF6FBFD1C0232DF007A9E5F /* libParse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParse.a; path = "Pods/../build/Debug-iphoneos/libParse.a"; sourceTree = "<group>"; };
 		2EF6FBFE1C0232DF007A9E5F /* libParseCrashReporting.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParseCrashReporting.a; path = "Pods/../build/Debug-iphoneos/libParseCrashReporting.a"; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				2E74E1261C024DEA006ED1F3 /* RegisterView.swift */,
 				A9A379421B1FF07400E8AAB0 /* ViewController.swift */,
 				A9A379441B1FF07400E8AAB0 /* Main.storyboard */,
+				2EA9AA661CDB9271004DE12C /* AboutCafe.swift */,
+				2EA9AA641CDA6CB9004DE12C /* CustomTabbar.swift */,
 				2E9602911CD6A46400E1090D /* LoginView.swift */,
 				2E96028F1CD66FDA00E1090D /* ShowComplex.swift */,
 				2E96028D1CD6228200E1090D /* ComplexView.swift */,
@@ -372,6 +378,7 @@
 			files = (
 				2E7AA9531C03663200AB84D0 /* RegisterLocationView.swift in Sources */,
 				A9A379431B1FF07400E8AAB0 /* ViewController.swift in Sources */,
+				2EA9AA651CDA6CB9004DE12C /* CustomTabbar.swift in Sources */,
 				2E7AA9561C087BC600AB84D0 /* myRoom.swift in Sources */,
 				2E7314551CD0CED800E2C493 /* Checking.swift in Sources */,
 				2E73144D1CC78BE900E2C493 /* CafeView.swift in Sources */,
@@ -382,6 +389,7 @@
 				A9A379411B1FF07400E8AAB0 /* AppDelegate.swift in Sources */,
 				2E9602921CD6A46400E1090D /* LoginView.swift in Sources */,
 				2E33513F1BEFBE900049CAB5 /* GmsMapView.swift in Sources */,
+				2EA9AA671CDB9271004DE12C /* AboutCafe.swift in Sources */,
 				2E7AA9511C03644100AB84D0 /* CompleteRegisterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

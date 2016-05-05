@@ -33,15 +33,14 @@ class CafeView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,U
     @IBOutlet weak var FoodPrice: UILabel!
     
     @IBOutlet weak var FoodDescription: UILabel!
+
     
     var showCafe:PFObject!
-    
+    var infoLabel:String!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var DynamicView=UIView(frame: CGRectMake(0, 0, 100, 20))
-        DynamicView.backgroundColor=UIColor.greenColor()
-      //  self.navigationItem.titleView = DynamicView
+       self.navigationItem.title = showCafe["name"] as! String
         loadfoods()
     }
     
@@ -70,47 +69,51 @@ class CafeView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,U
 
             
         }
-//        print("Hre")
-//        var query = PFQuery(className: "ComplexMenu")
-//        query.whereKey("place", equalTo: showCafe)
-//        var temp:NSMutableArray=NSMutableArray()
-//        query.orderByDescending("createdAt")
-//        query.getFirstObjectInBackgroundWithBlock {(object: PFObject?, error: NSError?) -> Void in
-//            if error==nil{
-//                self.lastComplex=object!
-//                temp=self.lastComplex["foods"]as! NSMutableArray
-//                let d1:NSDate=self.lastComplex["beginTime"] as! NSDate
-//                let d2:NSDate=self.lastComplex["endTime"] as! NSDate
-//                
-//                
-//                
-//                print("keldim")
-//                var dateFormatter = NSDateFormatter()
-//                dateFormatter.dateFormat = "hh:mm" //format style. Browse online to get a format that fits your needs.
-//                var dateString = dateFormatter.stringFromDate(d1)
-//          
-//                var dateString2 = dateFormatter.stringFromDate(d2)
-//              
-//                self.IntervalLabel.text=dateString+dateString2
-//                
-//                for (var i=0;i<temp.count;i=i+1){
-//                    var query2 = PFQuery(className: "Foods")
-//                    print(temp[i])
-//                    query2.whereKey("objectId", equalTo: temp[i])
-//                    query2.getFirstObjectInBackgroundWithBlock {(objectr: PFObject?, error: NSError?) -> Void in
-//                        if error==nil{
-//                            print("hello")
-//                            var c:PFObject=objectr!
-//                            
-//                            self.dataParse2.addObject(c)
-//                            
-//                        }}
-//                    
-//                }
-//                
-//         
-//            }
-        //}
+      
+        var temp:NSMutableArray=NSMutableArray()
+        var date1:NSDate!
+        var query = PFQuery(className: "ComplexMenu")
+        query.whereKey("place", equalTo: showCafe)
+        query.orderByDescending("createdAt")
+        query.getFirstObjectInBackgroundWithBlock {(object: PFObject?, error: NSError?) -> Void in
+            if error==nil{
+
+                var c:PFObject=object!
+                date1=c["endTime"] as! NSDate
+                let date2 : NSDate = NSDate() //initialized by default with the current date
+                
+                let compareResult = date1.compare(date2)
+                if compareResult == NSComparisonResult.OrderedDescending {
+                self.lastComplex=object!
+                temp=self.lastComplex["foods"]as! NSMutableArray
+                let d1:NSDate=self.lastComplex["beginTime"] as! NSDate
+                let d2:NSDate=self.lastComplex["endTime"] as! NSDate
+                print("keldim")
+                var dateFormatter = NSDateFormatter()
+                dateFormatter.dateFormat = "hh:mm" //format style. Browse online to get a format that fits your needs.
+                var dateString = dateFormatter.stringFromDate(d1)
+          
+                var dateString2 = dateFormatter.stringFromDate(d2)
+        
+                //self.IntervalLabel.text=" с "+dateString+" до "+dateString2
+                self.infoLabel=" с "+dateString+" до "+dateString2
+                for (var i=0;i<temp.count;i=i+1){
+                    var query2 = PFQuery(className: "Foods")
+                    print(temp[i])
+                    query2.whereKey("objectId", equalTo: temp[i])
+                    query2.getFirstObjectInBackgroundWithBlock {(objectr: PFObject?, error: NSError?) -> Void in
+                        if error==nil{
+                            var c:PFObject=objectr!
+                            self.dataParse2.addObject(c)
+                        }
+                        self.myTableView.reloadData()
+                    }
+                    
+                    }}
+                
+         
+            }
+        }
         
         
         
@@ -124,10 +127,12 @@ class CafeView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,U
         var b=0
         switch (SegmentedControl.selectedSegmentIndex) {
         case 0:
-            b=self.dataParse.count
+            b=self.dataParse2.count
+            self.IntervalLabel.text=self.infoLabel
             break
         case 1:
             b=self.dataParse.count
+            self.IntervalLabel.text=""
             break
         default:
             break
@@ -147,7 +152,7 @@ class CafeView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,U
             var typeLabel : UILabel = cell.contentView.viewWithTag(102) as! UILabel;
             var priceLabel : UILabel = cell.contentView.viewWithTag(103) as! UILabel;
             var photoView : UIImageView = cell.contentView.viewWithTag(100) as! UIImageView;
-            let d=self.dataParse[indexPath.row]as! PFObject
+            let d=self.dataParse2[indexPath.row]as! PFObject
             let file = d["image"]
             file.getDataInBackgroundWithBlock({ (data, error) -> Void in
                 if let data = data where error == nil{
@@ -183,6 +188,16 @@ class CafeView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,U
             break
         }
         return cell
+    }
+    
+    @IBAction func aboutCafe(sender: AnyObject) {
+        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let secondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("CafeViewS") as! CafeView
+        secondViewController.showCafe=marker.userData as! PFObject
+        print(secondViewController.showCafe["name"])
+        self.navigationController?.pushViewController(secondViewController, animated: true)
     }
     
     

@@ -14,20 +14,19 @@ class myRoom: UIViewController, CLLocationManagerDelegate {
 
 
         var check:Bool!=false
-
+        var strs:String!
     @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var ComplexInfo: UILabel!
     @IBOutlet weak var NameLabel: UILabel!
-    @IBAction func logOutButton(sender: AnyObject) {
-    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
                self.navigationItem.setHidesBackButton(true, animated: false)
         var date1:NSDate!
         self.typeLabel.text=PFUser.currentUser()!["type"] as! String
         self.NameLabel.text=PFUser.currentUser()!["name"] as! String
-        self.ComplexInfo.text=""
-        
+      
+          self.ComplexInfo.text=""
         var query = PFQuery(className: "ComplexMenu")
         query.whereKey("place", equalTo: PFUser.currentUser()!)
         query.orderByDescending("createdAt")
@@ -48,15 +47,33 @@ class myRoom: UIViewController, CLLocationManagerDelegate {
                     let DateBegin = dateString
                     var dateString2 = dateFormatter.stringFromDate(c["endTime"]as! NSDate)
                     let DateEnd = dateString2
-                    self.ComplexInfo.text=" c "+dateString+" до  "+dateString2
+                    let d=" c "+dateString+" до  "+dateString2
+                    self.updateComplexLabel(d)
+
            
                     
                 }}
-            
+        
 
         
         
         }    }
+    
+    
+    func updateComplexLabel(str:NSString){
+        print("What the problem")
+        self.ComplexInfo.text=str as String
+    }
+    
+    @IBAction func logOutButton(sender: AnyObject) {
+                PFUser.logOut()
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let secondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("CustomTabbar") as! CustomTabbar
+
+        self.navigationController?.presentViewController(secondViewController, animated: true,completion: nil)
+        
+    }
     
     @IBAction func ComplexButton(sender: AnyObject) {
         

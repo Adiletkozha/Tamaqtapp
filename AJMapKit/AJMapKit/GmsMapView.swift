@@ -16,14 +16,16 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
     var locationStatus : NSString = "Not Started"
     var locationisselected=0;
     var showDetail:PFObject!
+    var temp:String!=""
+    var check: Bool!=false
     @IBOutlet weak var NameOf: UILabel!
     @IBOutlet weak var TypeCafe: UILabel!
     @IBOutlet weak var IfComplex: UILabel!
     var locationManager: CLLocationManager!
     var itemsposition:CLLocationCoordinate2D!
     var markerlocations:NSArray!
-    var complex=""
-    
+
+    var lastComplexes:NSMutableArray!=NSMutableArray()
     
 
     
@@ -71,6 +73,7 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
                     
                     var s: PFObject;
                     s=objects![i];
+                    self.getLastComplexes(s)
                     let  point :PFGeoPoint!
                     point=s["point"] as! PFGeoPoint
                     print(point.latitude)
@@ -90,14 +93,56 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
         
         
         
+
+        
+        
+        
+        
     }
   
     
 
     
+    func getLastComplexes(obj:PFObject){
+        var query = PFQuery(className: "ComplexMenu")
+        query.whereKey("place", equalTo: obj)
+        query.orderByDescending("createdAt")
+                 var date1:NSDate!
+        query.getFirstObjectInBackgroundWithBlock {(object: PFObject?, error: NSError?) -> Void in
+            if error==nil{
+                var c:PFObject=object!
+                date1=c["endTime"] as! NSDate
+                let date2 : NSDate = NSDate() //initialized by default with the current date
+                
+                let compareResult = date1.compare(date2)
+                if compareResult == NSComparisonResult.OrderedDescending {
+                    
+                    
+                    var dateFormatter = NSDateFormatter()
+                    dateFormatter.dateFormat = "hh:mm"
+                    var dateString = dateFormatter.stringFromDate(c["beginTime"] as! NSDate)
+                    let DateBegin = dateString
+                    var dateString2 = dateFormatter.stringFromDate(c["endTime"]as! NSDate)
+                    let DateEnd = dateString2
+                    var complex=""
+                    complex += "c "
+                    complex += DateBegin
+                    complex += " до "
+                    complex += DateEnd
+                   
+                    self.saveLastComplex(c)
+                    
+                    
+                }
+            }}
     
+    }
     
-
+    func saveLastComplex(obj:PFObject){
+      
+        self.lastComplexes.addObject(obj)
+        
+    }
     
     
     
@@ -112,10 +157,6 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
         self.navigationController?.pushViewController(secondViewController, animated: true)
         
         
-        
-        
- 
-       // performSegueWithIdentifier("hello", sender: nil)
     }
     
 
@@ -128,72 +169,42 @@ class GmsMapView: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate 
             let nibRoot = nibsView[0]
             var g:PFObject=marker.userData as! PFObject
             self.showDetail=g
-            
-          
-
-            var date1:NSDate!
-            var query = PFQuery(className: "ComplexMenu")
-            query.whereKey("place", equalTo: g)
-            query.orderByDescending("createdAt")
-            query.getFirstObjectInBackgroundWithBlock {(object: PFObject?, error: NSError?) -> Void in
-                if error==nil{
-                    var c:PFObject=object!
-                    date1=c["endTime"] as! NSDate
-                    let date2 : NSDate = NSDate() //initialized by default with the current date
-                    
-                    let compareResult = date1.compare(date2)
-                    if compareResult == NSComparisonResult.OrderedDescending {
-
-                        
-                        var dateFormatter = NSDateFormatter()
-                        dateFormatter.dateFormat = "hh:mm" //format style. Browse online to get a format that fits your needs.
-                        var dateString = dateFormatter.stringFromDate(c["beginTime"] as! NSDate)
-                        let DateBegin = dateString
-                        var dateString2 = dateFormatter.stringFromDate(c["endTime"]as! NSDate)
-                        let DateEnd = dateString2
-                     //   let complex="с "+DateBegin+" до " + DateEnd
-
-                        self.complex += "c "
-                        self.complex += DateBegin
-                        self.complex += " до "
-                        self.complex += DateEnd
-           
-
-                    }
-                }}
             self.NameOf.text=g["name"] as! String
             self.TypeCafe.text=g["type"] as! String
-
-            self.IfComplex.text=self.complex
-            self.IfComplex.backgroundColor=UIColor.greenColor()
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
+            for(var i=0;i<self.lastComplexes.count;i++){
+                var f:PFObject=self.lastComplexes[i] as! PFObject
+                
+                
+                if(f["place"].objectId==g.objectId){
+                    var dateFormatter = NSDateFormatter()
+                    dateFormatter.dateFormat = "hh:mm" //format style. Browse online to get a format that fits your needs.
+                    var dateString = dateFormatter.stringFromDate(f["beginTime"] as! NSDate)
+                    let DateBegin = dateString
+                    var dateString2 = dateFormatter.stringFromDate(f["endTime"]as! NSDate)
+                    let DateEnd = dateString2
+                    //   let complex="с "+DateBegin+" до " + DateEnd
+                    var complex=""
+                    complex += "c "
+                    complex += DateBegin
+                    complex += " до "
+                    complex += DateEnd
+                    self.IfComplex.text=complex
+                    self.IfComplex.backgroundColor=UIColor.greenColor()
+                }
+            }
+        
             
             
             return nibRoot
-        
-//    
-//        var DynamicView=UIView(frame: CGRectMake(0, 0, 150, 40))
-//        DynamicView.backgroundColor=UIColor.greenColor()
-//        DynamicView.addSubview(button)
-//        return DynamicView
+
     }
         return nil
     }
 
-    
 
-        
+   
 
-        
+
 
 
 
