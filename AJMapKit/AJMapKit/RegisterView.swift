@@ -44,6 +44,7 @@ class RegisterView: UIViewController, MKMapViewDelegate, CLLocationManagerDelega
             user["type"]=typeText.text
             user["administratorText"]=administratorText.text
             user["phone"]=phoneText.text
+            user["name"]=nameText.text
 
        
             

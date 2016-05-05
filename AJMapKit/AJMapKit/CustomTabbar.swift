@@ -10,6 +10,12 @@
 
 
 class CustomTabbar: UITabBarController {
+  
     
-
+    
+    override func viewDidLoad() {
+        
+        //UITabBar.appearance().tintColor = UIColor.whiteColor()
+        UITabBar.appearance().barTintColor = UIColor.blackColor()
+    }
 }

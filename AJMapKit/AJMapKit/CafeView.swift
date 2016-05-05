@@ -194,9 +194,9 @@ class CafeView: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate,U
         
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         
-        let secondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("CafeViewS") as! CafeView
-        secondViewController.showCafe=marker.userData as! PFObject
-        print(secondViewController.showCafe["name"])
+        let secondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("AboutCafe") as! AboutCafe
+      //  secondViewController.showCafe=marker.userData as! PFObject
+      //  print(secondViewController.showCafe["name"])
         self.navigationController?.pushViewController(secondViewController, animated: true)
     }
     
